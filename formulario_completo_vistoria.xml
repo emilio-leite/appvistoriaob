@@ -1,617 +1,1865 @@
 <?xml version="1.0" ?>
 <form>
-  <section title="Vistoria">
-    <field type="text" label="MANUTENÇÃO"/>
-    <field type="text" label="teste"/>
-    <field type="text" label="Gerente: Teste"/>
-    <field type="text" label="Gerente Operacional: Teste"/>
-    <field type="text" label="Responsável vistoria: Teste"/>
-    <field type="text" label="Data: 05/06/2025"/>
-  </section>
   <section title="Apartamentos">
-    <field type="text" label="- Data Reforma ou abertura"/>
-    <field type="text" label="- Ar Condicionado"/>
-    <field type="text" label="- Bancada de Trabalho - Mesas"/>
-    <field type="text" label="- Banheiros - Apartamentos"/>
-    <field type="text" label="- Cadeiras"/>
-    <field type="text" label="- Check List"/>
-    <field type="text" label="- Cofres"/>
-    <field type="text" label="- Colchões"/>
-    <field type="text" label="- Pontuação PMP - Apartamentos - Colchões - Trimestral" multiline="true"/>
-    <field type="text" label="- Pontuação PMP - Apartamentos - Duchas - Trimestral" multiline="true"/>
-    <field type="text" label="- Frigobares"/>
-    <field type="text" label="- Fogões e /ou CookTops"/>
-    <field type="text" label="- Janelas"/>
-    <field type="text" label="- Luminárias e/ou Abajures"/>
-    <field type="text" label="- Mobiliário (Situação Geral)"/>
-    <field type="text" label="- Parede - Papel de parede ou Pintura (Geral)" multiline="true"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sacadas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Tomadas"/>
-    <field type="text" label="- TVs"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Portas são resistentes a Fogo" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Sprinklers" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Mapas de Rota de Fuga" multiline="true"/>
-    <field type="text" label="- Acessibilidade PNE - (NBR 9050 está disponível na INTRANET ACCOR)" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="- Pontuação PMP - Apartamentos - Check List - Semestral" multiline="true"/>
+    <section title="Data Reforma Ou Abertura">
+      <field type="text" label="Data Reforma ou abertura"/>
+    </section>
+    <section title="Ar Condicionado">
+      <field type="boolean" label="As bandejas estão limpas?"/>
+      <field type="boolean" label="Os filtros estão limpos?"/>
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+      <field type="boolean" label="Os rotores estão limpos e conservados?"/>
+      <field type="text" label="As serpentinas estão limpas e conservadas"/>
+      <field type="boolean" label="As condensadoras estão limpas?"/>
+    </section>
+    <section title="Bancada De Trabalho - Mesas">
+      <field type="boolean" label="As bancadas / mesas estão que estado de conservação?"/>
+    </section>
+    <section title="Banheiros - Apartamentos">
+      <field type="boolean" label="As duchas estão limpas?"/>
+      <field type="boolean" label="Os espelhos  estão conservados? Qual estado de conservação?"/>
+      <field type="text" label="&quot;Como está a situação dos metais do Banheiro?(toalheiro , torneiras , registros , duchas , saboneteiras , papeleira , Monocomandos)&quot;"/>
+      <field type="boolean" label="Como está situação da pintura da parede e teto Banheiro?"/>
+      <field type="boolean" label="Os rejuntes estão em que situação?"/>
+      <field type="boolean" label="O sistema de Exaustão dos Sanitários está funcionando?"/>
+      <field type="boolean" label="As grelhas de Exaustão estão limpas?"/>
+      <field type="boolean" label="Os registros Monocomandos estão identificados (água quente e fria)?"/>
+      <field type="boolean" label="Os portas toalhas  estão conservados?"/>
+      <field type="boolean" label="Os sanitários estão limpos e conservados?"/>
+    </section>
+    <section title="Cadeiras">
+      <field type="boolean" label="As cadeiras estão conservadas?"/>
+    </section>
+    <section title="Check List">
+      <field type="boolean" label="O Hotel possui Check List dos Apartamentos?"/>
+    </section>
+    <section title="Cofres">
+      <field type="boolean" label="Os cofres  estão funcionando ?"/>
+      <field type="text" label="O cofre está fixo na parede “nova exigência”"/>
+    </section>
+    <section title="Colchões">
+      <field type="boolean" label="Os colchões estão com anotação (marcações) corretas?"/>
+      <field type="boolean" label="Os colchões estão sendo virados conforme determina PMP?"/>
+    </section>
+    <section title="Pontuação Pmp - Apartamentos - Colchões - Trimestral">
+      <field type="text" label="Inversão dos Colchões"/>
+    </section>
+    <section title="Pontuação Pmp - Apartamentos - Duchas - Trimestral">
+      <field type="text" label="Limpeza das duchas de banho"/>
+    </section>
+    <section title="Frigobares">
+      <field type="boolean" label="Os frigobares  estão conservados?"/>
+    </section>
+    <section title="Fogões E /Ou Cooktops">
+      <field type="boolean" label="Os Fogões e /ou CookTops  estão conservados?"/>
+    </section>
+    <section title="Janelas">
+      <field type="boolean" label="As janelas estão com limitadores de abertura (12 a 15 cm)?"/>
+      <field type="text" label="As janelas estão limpas? (Vidros e estrutura)"/>
+      <field type="boolean" label="Há problemas de Infiltração?"/>
+    </section>
+    <section title="Luminárias E/Ou Abajures">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Mobiliário (Situação Geral)">
+      <field type="text" label="&quot;Mobiliário (cama , bancada de trabalho , cadeiras , armários , banheiro , etc.)&quot;"/>
+    </section>
+    <section title="Parede - Papel De Parede Ou Pintura (Geral)">
+      <field type="boolean" label="As paredes e/ou papéis de parede estão que estado de Conservação?"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete estão que estado de conservação ?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão com molas para fechamento automático?"/>
+      <field type="text" label="Pintura e madeiras estão conservadas"/>
+      <field type="text" label="A porta de entrada possui trava de segurança tipo corrente ou olho mágico “nova exigência”"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sacadas">
+      <field type="text" label="&quot;A altura do Gradil das sacadas é superior a 1,10 m?&quot;"/>
+      <field type="boolean" label="Os metais das sacadas  estão conservados?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Tomadas">
+      <field type="boolean" label="As tomadas estão identificadas?"/>
+    </section>
+    <section title="Tvs">
+      <field type="text" label="As TVs estão devidamente sintonizadas"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Portas São Resistentes A Fogo">
+      <field type="boolean" label="As portas dos Apartamentos são resistentes a fogo?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Sprinklers">
+      <field type="boolean" label="Há sprinkler instalado no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Mapas De Rota De Fuga">
+      <field type="boolean" label="Há Mapas de Rota de Fuga instaladas?"/>
+      <field type="boolean" label="Os Mapas de Rota de Fuga estão corretos?"/>
+    </section>
+    <section title="Acessibilidade Pne - (Nbr 9050 Está Disponível Na Intranet Accor)">
+      <field type="boolean" label="Os Apartamentos PNE estão totalmente adaptados ás Normas de Acessibilidade?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+    <section title="Pontuação Pmp - Apartamentos - Check List - Semestral">
+      <field type="text" label="Check List dos Apartamentos"/>
+    </section>
   </section>
   <section title="Ar Condicionado">
-    <field type="text" label="- Chiller e/ou Torres de Resfriamento"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintor Chiller" multiline="true"/>
-    <field type="text" label="- Fancoils"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="ÁREAS / PISOS TÉCNICOS"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Materiais"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="ÁREAS ADMINISTRATIVAS"/>
-    <field type="text" label="- CFTV - Áreas Administrativas"/>
-    <field type="text" label="- &quot;Mobiliário (Balcão , Cadeiras)&quot;"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Pintura (Geral)"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="ÁREAS EXTERNAS"/>
-    <field type="text" label="- CFTV - Áreas Externas"/>
-    <field type="text" label="- Calçada"/>
-    <field type="text" label="- Jardins"/>
-    <field type="text" label="- Pontuação PMP - Jardins - Manutenção - Mensal" multiline="true"/>
-    <field type="text" label="- Marquise"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="- Pontuação PMP - Iluminação Hotel - Mensal" multiline="true"/>
-    <field type="text" label="ÁREAS INTERNAS - CORREDORES TÉCNICOS"/>
-    <field type="text" label="- Corredores"/>
-    <field type="text" label="BOMBAS DE PRESSURIZAÇÃO"/>
-    <field type="text" label="- Conservação"/>
-    <field type="text" label="- Funcionando"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Chiller E/Ou Torres De Resfriamento">
+      <field type="boolean" label="As bombas do Chiller e/ou Torres estão conservadas?"/>
+      <field type="boolean" label="A estrutura metálica do Chiller e/ou Torres está conservada?"/>
+      <field type="text" label="As serpentinas do Chiller e/ou Torres estão"/>
+      <field type="boolean" label="Água Gelada coletada no ponto mais baixo da instalação está sem resíduos?"/>
+      <field type="boolean" label="A caixa de compensação está limpa?"/>
+      <field type="boolean" label="Há produtos de tratamento de Água Gelada na caixa de compensação?"/>
+      <field type="boolean" label="Todos os compressores dos Chillers  estão conservados? funcionando?"/>
+      <field type="boolean" label="O isolamento térmico do Chiller está conservado?"/>
+      <field type="boolean" label="Painel de Comando do Chiller está protegido?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintor Chiller">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Fancoils">
+      <field type="boolean" label="Os Fancoils estão limpos e conservados?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Áreas / Pisos Técnicos">
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Materiais">
+      <field type="text" label="&quot;Há material , objetos guardados , estocados no local nos pavimentos técnicos (não pode ser guardado nenhum material) &quot;"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Botoeiras De Incêndio">
+      <field type="boolean" label="As botoeiras estão funcionando?"/>
+      <field type="boolean" label="Há botoeiras instaladas no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Caixa De Hidrantes">
+      <field type="text" label="&quot;As caixas de Hidrantes estão com Mangueiras , bicos e chave storz?&quot;"/>
+      <field type="boolean" label="O acesso à caixa de hidrantes está livre e desobstruído?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="text" label="As placas estão em Inglês em Português"/>
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Portas Corta Fogo">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+      <field type="boolean" label="As portas estão fechando-se completamente?"/>
+      <field type="boolean" label="As portas estão identificadas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Áreas Administrativas">
+    <section title="Cftv - Áreas Administrativas">
+      <field type="boolean" label="Todas as áreas das áreas administrativas são monitorados por CFTV?"/>
+    </section>
+    <section title="&quot;Mobiliário (Balcão , Cadeiras)&quot;">
+      <field type="text" label="Estado de Conservação do Mobiliário"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede estão que estado de Conservação?"/>
+    </section>
+    <section title="Pintura (Geral)">
+      <field type="text" label="Estado Conservação da Pintura"/>
+    </section>
+    <section title="Teto">
+      <field type="text" label="Estado de Conservação do teto"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Áreas Externas">
+    <section title="Cftv - Áreas Externas">
+      <field type="boolean" label="Todas as áreas externas do hotel são monitorados por CFTV?"/>
+      <field type="text" label="Existe câmera na entrada principal do hotel para gravação do rosto “Nova exigência”"/>
+    </section>
+    <section title="Calçada">
+      <field type="boolean" label="A calçada está conservada?"/>
+    </section>
+    <section title="Jardins">
+      <field type="boolean" label="O jardim está conservado?"/>
+    </section>
+    <section title="Pontuação Pmp - Jardins - Manutenção - Mensal">
+      <field type="text" label="Manutenção dos Jardins"/>
+    </section>
+    <section title="Marquise">
+      <field type="boolean" label="A marquise está conservada?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+    <section title="Pontuação Pmp - Iluminação Hotel - Mensal">
+      <field type="text" label="&quot;Verificação Iluminação Externa, Letreiros e Totens&quot;"/>
+    </section>
+  </section>
+  <section title="Áreas Internas - Corredores Técnicos">
+    <section title="Corredores">
+      <field type="boolean" label="Os corredores  estão conservados?"/>
+    </section>
+  </section>
+  <section title="Bombas De Pressurização">
+    <section title="Conservação">
+      <field type="boolean" label="As bombas de Pressurização estão conservadas?"/>
+    </section>
+    <section title="Funcionando">
+      <field type="boolean" label="As bombas de Pressurização estão funcionando?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Business Center">
-    <field type="text" label="- Equipamentos"/>
-    <field type="text" label="- Instalações Elétricas"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="CABINE PRIMÁRIA / QGBT"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas de acesso"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- EPIs (Equipamentos de Proteção Individual)" multiline="true"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- NR 10 - Curso Equipe"/>
-    <field type="text" label="- NR 10 - Vencimento"/>
-    <field type="text" label="- Quadros Elétricos Diagramas Unifilares"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Tipo Transformador"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="CAMAREIRAS - BASE E/OU DEPÓSITOS"/>
-    <field type="text" label="- Base e/ou Depósitos"/>
-    <field type="text" label="- Janelas - Limpeza"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Armários"/>
-    <field type="text" label="- Portas - Pintura e Conservação"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="CENTRAL DE GÁS"/>
-    <field type="text" label="- Central de Gás"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="CENTRO DE MEDIÇÃO DE ENERGIA"/>
-    <field type="text" label="- Centro Medição"/>
+    <section title="Equipamentos">
+      <field type="boolean" label="Os equipamentos estão funcionando?"/>
+    </section>
+    <section title="Instalações Elétricas">
+      <field type="boolean" label="As instalações elétricas estão dentro das normas Brasileiras?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Cabine Primária / Qgbt">
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias são blindadas?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas De Acesso">
+      <field type="text" label="As portas são mantidas trancadas"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Epis (Equipamentos De Proteção Individual)">
+      <field type="boolean" label="Os EPIs estão disponíveis na Cabine Primária (Luva de borracha deve ser Tipo 2 de Resistente 17 KV)?"/>
+      <field type="boolean" label="Feito Teste de Resistência das Luvas Isolantes (Borracha)?"/>
+    </section>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo? sem materiais no interior?"/>
+    </section>
+    <section title="Nr 10 - Curso Equipe">
+      <field type="boolean" label="Toda a equipe de Manutenção do Hotel tem o curso da NR-10?"/>
+    </section>
+    <section title="Nr 10 - Vencimento">
+      <field type="text" label="Quando vence? curso da NR-10 / Reciclagem?os funcionários? Informar Campo Comentários"/>
+    </section>
+    <section title="Quadros Elétricos Diagramas Unifilares">
+      <field type="boolean" label="Todos os Quadros Elétricos possuem o diagrama unifilar?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="Tipo Transformador">
+      <field type="text" label="&quot;Se for a óleo, qual o tipo: (Mineral / Silicone / Sem informações / Outros)Vide Comentários&quot;"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Camareiras - Base E/Ou Depósitos">
+    <section title="Base E/Ou Depósitos">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Janelas - Limpeza">
+      <field type="boolean" label="As janelas estão limpas?"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede  estão conservados?"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete está conservado?"/>
+    </section>
+    <section title="Armários">
+      <field type="boolean" label="Os armários e/ou prateleiras  estão conservados?"/>
+    </section>
+    <section title="Portas - Pintura E Conservação">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Central De Gás">
+    <section title="Central De Gás">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Centro De Medição De Energia">
+    <section title="Centro Medição">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
   </section>
   <section title="Cftv">
-    <field type="text" label="- Funcionamento"/>
-    <field type="text" label="- Limpeza das Lentes câmeras"/>
-    <field type="text" label="- Monitoramento"/>
-    <field type="text" label="- Monitoramento - Empresa Terceirizada"/>
-    <field type="text" label="- Monitoramento - Recepção"/>
-    <field type="text" label="- Tempo de uso equipamentos"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Funcionamento">
+      <field type="boolean" label="Está sendo verificado mensalmente o funcionamento do sistema de CFTV?"/>
+    </section>
+    <section title="Limpeza Das Lentes Câmeras">
+      <field type="boolean" label="Todas as lentes das câmeras externas são limpas mensalmente?"/>
+    </section>
+    <section title="Monitoramento">
+      <field type="boolean" label="Todas as lentes das câmeras internas são limpas Semestralmente?"/>
+    </section>
+    <section title="Monitoramento - Empresa Terceirizada">
+      <field type="boolean" label="A recepção é monitorada por empresas Terceirizada de segurança?"/>
+    </section>
+    <section title="Monitoramento - Recepção">
+      <field type="boolean" label="O CFTV da recepção é monitorada por colaboradores?"/>
+    </section>
+    <section title="Tempo De Uso Equipamentos">
+      <field type="text" label="O sistema e câmeras tem mais de 08 anos de uso? (caso positivo informar ao Hotel a necessidade troca)"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Cobertura">
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- SPDA - Estruturas Metálicas"/>
-    <field type="text" label="- Guarda Corpo"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="Qual situação que está o piso?"/>
+    </section>
+    <section title="Spda - Estruturas Metálicas">
+      <field type="boolean" label="Todas as estrutura metálicas na cobertura estão aterradas?"/>
+    </section>
+    <section title="Guarda Corpo">
+      <field type="boolean" label="Há guarda corpo na cobertura e estão com altura e instalações está dentro das normas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Corredores Dos Apartamentos">
-    <field type="text" label="- CFTV - Corredores dos Apartamentos"/>
-    <field type="text" label="- Janelas"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Shafts - Portas"/>
-    <field type="text" label="- Shafts - Sistema de Combate à Incêndio - Compartimentação" multiline="true"/>
-    <field type="text" label="- Shafts - Tubulações de água Fria"/>
-    <field type="text" label="- Shafts - Tubulações de água Gelada"/>
-    <field type="text" label="- Shafts - Tubulações de água Quente"/>
-    <field type="text" label="- Shafts - Tubulações no geral"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Mapas de Rota de Fuga" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Cftv - Corredores Dos Apartamentos">
+      <field type="boolean" label="Todas as áreas dos corredores de Apartamentos são monitorados por CFTV?"/>
+    </section>
+    <section title="Janelas">
+      <field type="boolean" label="As janelas estão com limitadores de abertura (12 a 15 cm)?"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede estão que estado de Conservação?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="Os tetos  estão conservados?"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete estão em que estado de conservação?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Shafts - Portas">
+      <field type="text" label="Estado de Conservação dos Shafts"/>
+    </section>
+    <section title="Shafts - Sistema De Combate À Incêndio - Compartimentação">
+      <field type="boolean" label="Os shafts são compartimentados?"/>
+    </section>
+    <section title="Shafts - Tubulações De Água Fria">
+      <field type="boolean" label="As tubulações estão conservadas ?"/>
+    </section>
+    <section title="Shafts - Tubulações De Água Gelada">
+      <field type="boolean" label="As tubulações estão conservadas ?"/>
+      <field type="boolean" label="Os isolamentos térmicos  estão conservados?"/>
+    </section>
+    <section title="Shafts - Tubulações De Água Quente">
+      <field type="boolean" label="As tubulações estão conservadas ?"/>
+    </section>
+    <section title="Shafts - Tubulações No Geral">
+      <field type="boolean" label="As tubulações estão conservadas identificadas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Caixa De Hidrantes">
+      <field type="text" label="&quot;As caixas de Hidrantes estão com Mangueiras , bicos e chave storz?&quot;"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Botoeiras De Incêndio">
+      <field type="boolean" label="As botoeiras estão funcionando?"/>
+      <field type="boolean" label="Há botoeiras instaladas no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Mapas De Rota De Fuga">
+      <field type="boolean" label="Há Mapas de Rota de Fuga instaladas?"/>
+      <field type="boolean" label="Os Mapas de Rota de Fuga estão corretos?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="text" label="As placas estão em Inglês em Português"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Portas Corta Fogo">
+      <field type="boolean" label="As portas corta fogo estão conservadas?"/>
+      <field type="boolean" label="As portas estão fechando-se completamente?"/>
+      <field type="boolean" label="Estão identificadas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Cozinha">
-    <field type="text" label="- Data Reforma ou abertura"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Pintura (Geral)"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Balcões de Congelados e/ou Resfriados"/>
-    <field type="text" label="- Câmaras Positivas e Negativas"/>
-    <field type="text" label="- Coifa"/>
-    <field type="text" label="- Equipamentos"/>
-    <field type="text" label="- Filtros d'água"/>
-    <field type="text" label="- Fritadeiras"/>
-    <field type="text" label="- Mangueiras de Gás"/>
-    <field type="text" label="- Instalações Elétricas"/>
-    <field type="text" label="- Janelas - Tela de Proteção"/>
-    <field type="text" label="- Lava Louça"/>
-    <field type="text" label="- Almoxarifado"/>
-    <field type="text" label="- Luminárias Protegidas"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de Gás" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Manta Anti-Chama" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Cobertor Anti-Chama" multiline="true"/>
-    <field type="text" label="- Wash Pull"/>
-    <field type="text" label="- Pontuação PMP - Cozinha - Caixa de Gordura (RDC216-04) - Bimestral" multiline="true"/>
-    <field type="text" label="- Pontuação PMP - Cozinha - Manutenção Equipamentos (RDC216-04) - Mensal" multiline="true"/>
-    <field type="text" label="- Pontuação PMP - Cozinha - Coifa - Dutos de Exaustão (RDC216-04) - Anual" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="CPD E/OU DG"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <section title="Data Reforma Ou Abertura">
+      <field type="text" label="Data Reforma ou abertura"/>
+    </section>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="text" label="Estado de Conservação do piso (No Geral)"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está que Estado de Conservação?"/>
+    </section>
+    <section title="Pintura (Geral)">
+      <field type="text" label="Estado Conservação da Pintura"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Balcões De Congelados E/Ou Resfriados">
+      <field type="boolean" label="As borrachas das portas dos balcões estão conservadas?"/>
+      <field type="boolean" label="Os compressores estão limpos?"/>
+      <field type="text" label="As serpentinas dos balcões de congelados e resfriados estão limpas e"/>
+    </section>
+    <section title="Câmaras Positivas E Negativas">
+      <field type="boolean" label="A câmara / geladeira de congelados opera dentro da faixa de -12º C e -18º C?"/>
+      <field type="boolean" label="A câmara / geladeira de resfriados opera dentro da faixa de +4º C e +10º C?"/>
+      <field type="boolean" label="As borrachas das portas das câmaras estão conservadas?"/>
+      <field type="text" label="As serpentinas das câmaras de congelados e resfriados estão limpas e"/>
+      <field type="boolean" label="O piso das câmaras  estão conservados?"/>
+      <field type="boolean" label="Há sistema antitravamento ou as portas  podem ser destravadas( abertas ) no lado interno das câmaras?"/>
+    </section>
+    <section title="Coifa">
+      <field type="boolean" label="A coifa está limpa?"/>
+      <field type="boolean" label="Os dutos da coifa estão limpos?"/>
+    </section>
+    <section title="Equipamentos">
+      <field type="text" label="Estado de Conservação dos equipamentos"/>
+    </section>
+    <section title="Filtros D'Água">
+      <field type="boolean" label="Os filtros estão com etiqueta com data de troca e validade do elemento filtrante?"/>
+    </section>
+    <section title="Fritadeiras">
+      <field type="boolean" label="O seletor de temperatura está com informação de temperatura legível?"/>
+      <field type="text" label="A fritadeira pode ser programada no máximo a 200° C? (podendo ser programada acima de 200° C tirar foto e comentar) ( Atenção : Acima de 200° C Risco de Incêndio )"/>
+      <field type="boolean" label="A Fritadeira tem termostato de segurança?"/>
+      <field type="text" label="Qual temperatura do óleo está a nas fritadeiras? Graus Celsius)"/>
+    </section>
+    <section title="Mangueiras De Gás">
+      <field type="boolean" label="As Mangueiras de gás estão limpas?"/>
+      <field type="boolean" label="As Mangueiras de gás estão dentro da data de validade?"/>
+    </section>
+    <section title="Instalações Elétricas">
+      <field type="boolean" label="As instalações elétricas no local estão e dentro das Normas?"/>
+    </section>
+    <section title="Janelas - Tela De Proteção">
+      <field type="boolean" label="No local há telas de proteção?"/>
+    </section>
+    <section title="Lava Louça">
+      <field type="boolean" label="O equipamento está conservado? funcionando?"/>
+    </section>
+    <section title="Almoxarifado">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias Protegidas">
+      <field type="boolean" label="As luminárias são protegidas com acrílico?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Gás">
+      <field type="boolean" label="Há detector de gás no local?"/>
+      <field type="boolean" label="O detector de gás está funcionando?"/>
+      <field type="boolean" label="O detector de gás está interligado na Central de Incêndio?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="text" label="&quot;Há extintor TIPO CO2 , Pó Químico ou Tipo K instalado no local?&quot;"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Manta Anti-Chama">
+      <field type="boolean" label="Há manta anti-chama no local ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Cobertor Anti-Chama">
+      <field type="boolean" label="Na cozinha há cobertor anti-chama ?"/>
+    </section>
+    <section title="Wash Pull">
+      <field type="boolean" label="O reservatório do sistema WashPull está com produto desengordurante?"/>
+      <field type="boolean" label="O sistema Wash Pull está funcionando?"/>
+    </section>
+    <section title="Pontuação Pmp - Cozinha - Caixa De Gordura (Rdc216-04) - Bimestral">
+      <field type="text" label="Limpeza das Caixas de Gordura"/>
+    </section>
+    <section title="Pontuação Pmp - Cozinha - Manutenção Equipamentos (Rdc216-04) - Mensal">
+      <field type="text" label="Manutenção dos Equipamentos da Cozinha e Coifa"/>
+    </section>
+    <section title="Pontuação Pmp - Cozinha - Coifa - Dutos De Exaustão (Rdc216-04) - Anual">
+      <field type="text" label="Verificar e limpar todo o duto das coifas de cozinhas"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
-  <section title="- Cftv - Cpd">
-    <field type="text" label="- Acesso às pessoas autorizadas"/>
-    <field type="text" label="- Instalações Elétricas"/>
+  <section title="Cpd E/Ou Dg">
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Cftv - Cpd">
+      <field type="boolean" label="Todas as áreas do CPD são monitorados por CFTV?"/>
+    </section>
+    <section title="Acesso Às Pessoas Autorizadas">
+      <field type="text" label="O acesso ao CPD é restrito “Nova exigência”"/>
+    </section>
+    <section title="Instalações Elétricas">
+      <field type="boolean" label="Os cabos e fios estão organizados?"/>
+    </section>
+    <section title="Pabx">
+      <field type="text" label="O PABX está com as tampas de proteção"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
-  <section title="- Pabx">
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="EDIFICAÇÃO"/>
-    <field type="text" label="- Fachada"/>
-    <field type="text" label="- Infiltrações"/>
-    <field type="text" label="- Comprometimento estrutural"/>
-    <field type="text" label="- Rachaduras"/>
-    <field type="text" label="- * Observações Complementares"/>
+  <section title="Edificação">
+    <section title="Fachada">
+      <field type="boolean" label="A fachada está conservada?"/>
+      <field type="text" label="A fachada está conservada? Detalhes no campo comentários"/>
+    </section>
+    <section title="Infiltrações">
+      <field type="text" label="Há problemas de Infiltração na edificação"/>
+      <field type="text" label="Quais locais há problemas críticos de infiltrações? (ver foto e campo comentários)"/>
+    </section>
+    <section title="Comprometimento Estrutural">
+      <field type="boolean" label="Há necessidade de acionar o Engenheiro Puglia?"/>
+    </section>
+    <section title="Rachaduras">
+      <field type="boolean" label="A fachada está com problemas de rachaduras na estrutura do Hotel?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Elevadores">
-    <field type="text" label="- Elevadores"/>
-    <field type="text" label="- Fabricante"/>
-    <field type="text" label="- Acessibilidade PNE - (NBR 9050 está disponível na INTRANET ACCOR)" multiline="true"/>
-    <field type="text" label="- Alarmes"/>
-    <field type="text" label="- Avisos de Alerta"/>
-    <field type="text" label="- Cabinas Conservação"/>
-    <field type="text" label="- Poço do Elevador"/>
-    <field type="text" label="- Casa de Máquinas Elevadores"/>
-    <field type="text" label="- CFTV - Elevadores"/>
-    <field type="text" label="- Iluminação de Emergência"/>
-    <field type="text" label="- Trilhos"/>
-    <field type="text" label="- Interfones"/>
-    <field type="text" label="- Pontuação PMP - Elevadores - Itens de Segurança - (NBR 13994 15997) - Mensal" multiline="true"/>
-    <field type="text" label="- Infiltrações"/>
-    <field type="text" label="- Quadros elétricos"/>
-    <field type="text" label="- Régua de Segurança"/>
-    <field type="text" label="- Sistema de Combate à Incêndio -Casa de Máquinas Elevadores" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detectores de Fumaça / Botoeiras (NBR 9441) - Mensal" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="ESCADAS DE EMERGÊNCIA"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - altura dos Degraus" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Corrimãos" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio Degraus Pintados" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Escadas Internas" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio Riscadas Externas" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio -Indicação dos Andares" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Setas de Direcionamento" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="ESTAÇÃO DE TRATAMENTO DE ÁGUA"/>
-    <field type="text" label="- Estação de Tratamento de Água"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Elevadores">
+      <field type="boolean" label="Quantos elevadores há no Hotel?"/>
+    </section>
+    <section title="Fabricante">
+      <field type="boolean" label="Qual o fabricante dos elevadores?"/>
+    </section>
+    <section title="Acessibilidade Pne - (Nbr 9050 Está Disponível Na Intranet Accor)">
+      <field type="boolean" label="Existe indicação com o nº do andar em braile e numérico no batente externos dos elevadores?"/>
+    </section>
+    <section title="Alarmes">
+      <field type="boolean" label="O Alarme está funcionando?"/>
+    </section>
+    <section title="Avisos De Alerta">
+      <field type="text" label="&quot;Existe a comunicação &quot;&quot; Antes de entrar verifique se o elevador está parado no pavimento&quot;&quot;?&quot;"/>
+      <field type="text" label="&quot;Existe a comunicação &quot;&quot; É proibido Fumar &quot;&quot;?&quot;"/>
+      <field type="text" label="&quot;Existe a comunicação &quot;&quot; Não utilize o elevador em caso de incêndio&quot;&quot;?&quot;"/>
+    </section>
+    <section title="Cabinas Conservação">
+      <field type="boolean" label="As cabinas dos elevadores  estão conservados?"/>
+    </section>
+    <section title="Poço Do Elevador">
+      <field type="text" label="A porta de acesso ao poço está fechada e trancada com cadeado e/ou chave) - Risco de Acidentes"/>
+    </section>
+    <section title="Casa De Máquinas Elevadores">
+      <field type="boolean" label="As polias dos motores estão protegidas?"/>
+      <field type="boolean" label="Os motores não apresentam vazamento de óleo?"/>
+    </section>
+    <section title="Cftv - Elevadores">
+      <field type="boolean" label="Todas os elevadores são monitorados por CFTV?"/>
+    </section>
+    <section title="Iluminação De Emergência">
+      <field type="boolean" label="A iluminação de Emergência da cabina do Elevador está funcionando?"/>
+      <field type="boolean" label="A iluminação de Emergência da cabina do Elevador está funcionando?"/>
+    </section>
+    <section title="Trilhos">
+      <field type="boolean" label="Os trilhos  ( piso  ) da porta de entrga dos elevadores estão limpos?"/>
+    </section>
+    <section title="Interfones">
+      <field type="boolean" label="Os interfones estão funcionando?"/>
+    </section>
+    <section title="Pontuação Pmp - Elevadores - Itens De Segurança - (Nbr 13994 15997) - Mensal">
+      <field type="text" label="Verificar Itens de Segurança dos Elevadores"/>
+    </section>
+    <section title="Infiltrações">
+      <field type="boolean" label="Há infiltração de água no local?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Régua De Segurança">
+      <field type="boolean" label="Há régua de abertura (sensor) na porta?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio -Casa De Máquinas Elevadores">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detectores De Fumaça / Botoeiras (Nbr 9441) - Mensal">
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Escadas De Emergência">
+    <section title="Sistema De Combate À Incêndio - Altura Dos Degraus">
+      <field type="boolean" label="Altura dos degraus das escadas de Emergência está entre 16 e 18 cm?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Corrimãos">
+      <field type="boolean" label="Os corrimãos são contínuos?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio Degraus Pintados">
+      <field type="boolean" label="Todos os patamares estão com Caixa pintura de amarelo Foto-luminescente?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Escadas Internas">
+      <field type="boolean" label="Quantas Escadas de Emergência internas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio Riscadas Externas">
+      <field type="boolean" label="Quantas Escadas de Emergência externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As escadas estão devidamente iluminadas e com todas as luminárias funcionando?"/>
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio -Indicação Dos Andares">
+      <field type="boolean" label="Todos os patamares estão com a sinalização do andar na parede e são fotoluminescentes?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Setas De Direcionamento">
+      <field type="text" label="Há setas 15 cm acima do piso direcionando para a saída de Emergência"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Estação De Tratamento De Água">
+    <section title="Estação De Tratamento De Água">
+      <field type="boolean" label="Hotel possui estação Tratamento de Água Esgoto  ?"/>
+      <field type="boolean" label="As bombas estão funcionando?"/>
+      <field type="boolean" label="O sistema de tratamento de água está sendo utilizado?"/>
+      <field type="boolean" label="Os reservatórios  estão conservados?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Estacionamento">
-    <field type="text" label="- CFTV - Estacionamento"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Iluminação"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Sanitários"/>
-    <field type="text" label="- Escritório do Estacionamento"/>
-    <field type="text" label="- Infiltrações"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça e/ou Detectores de Calor" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Compartimentado" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Marcas Piso" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Tubulações de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
-    <field type="text" label="- Tubulações de gás"/>
-    <field type="text" label="- Vagas"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Cftv - Estacionamento">
+      <field type="boolean" label="Todas as áreas do Estacionamento são monitorados por CFTV?"/>
+    </section>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Iluminação">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+      <field type="text" label="A iluminação do estacionamento está em boas condições em todas as áreas “Nova exigência”"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Sanitários">
+      <field type="boolean" label="Os sanitários estão limpos e conservados?"/>
+      <field type="boolean" label="Os vasos Sanitários estão com as tampas de proteção?"/>
+    </section>
+    <section title="Escritório Do Estacionamento">
+      <field type="text" label="O escritório do Estacionamento está limpo e conservado"/>
+    </section>
+    <section title="Infiltrações">
+      <field type="boolean" label="Há problemas de Infiltração?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça E/Ou Detectores De Calor">
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Compartimentado">
+      <field type="boolean" label="O acesso do Estacionamento para o hotel está compartimentado com portas corta fogo?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Marcas Piso">
+      <field type="boolean" label="Todos os extintores e hidrantes no Estacionamento estão com as sinalizações no Piso e parede?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Tubulações De Incêndio">
+      <field type="boolean" label="As tubulações de incêndio estão conservadas ?"/>
+      <field type="boolean" label="Não há Objetos pendurados nas tubulações?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Caixa De Hidrantes">
+      <field type="text" label="&quot;As caixas de Hidrantes estão com Mangueiras , bicos e chave storz?&quot;"/>
+      <field type="boolean" label="O acesso à caixa de hidrantes está livre e desobstruído?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Portas Corta Fogo">
+      <field type="boolean" label="As portas corta fogo estão conservadas?"/>
+      <field type="boolean" label="As portas estão fechando-se completamente?"/>
+      <field type="boolean" label="As portas estão identificadas?"/>
+    </section>
+    <section title="Tubulações De Gás">
+      <field type="boolean" label="As tubulações estão conservadas pintadas de amarelo?"/>
+    </section>
+    <section title="Vagas">
+      <field type="boolean" label="Os carros estão devidamente estacionados e não estão obstruindo a visão ou acesso aos equipamentos do sistema de combate à incêndio?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Fitness">
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Mobiliário / Armários"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Sanitários"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Equipamentos"/>
-    <field type="text" label="- Filtros d'água"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sanitários"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Mobiliário / Armários">
+      <field type="boolean" label="O mobiliário / armários  estão conservados?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Sanitários">
+      <field type="boolean" label="Os vasos Sanitários estão com as tampas de proteção?"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Equipamentos">
+      <field type="boolean" label="Os equipamentos  estão conservados?"/>
+    </section>
+    <section title="Filtros D'Água">
+      <field type="boolean" label="Os filtros estão com etiqueta com data de troca e validade do elemento filtrante?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sanitários">
+      <field type="boolean" label="Os sanitários estão limpos e conservados?"/>
+      <field type="boolean" label="Os espelhos  estão conservados?"/>
+      <field type="boolean" label="O sistema de Exaustão dos Sanitários está funcionando?"/>
+      <field type="boolean" label="Os vasos Sanitários estão com as tampas de proteção?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Gerador De Energia">
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Acionamento"/>
-    <field type="text" label="- Bacia Contenção"/>
-    <field type="text" label="- Tanque Combustível"/>
-    <field type="text" label="- Baterias"/>
-    <field type="text" label="- Aterramento"/>
-    <field type="text" label="- Combustível - Armazenamento"/>
-    <field type="text" label="- Iluminação de Emergência"/>
-    <field type="text" label="- Luminárias Blindadas"/>
-    <field type="text" label="- Óleo"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Radiador"/>
-    <field type="text" label="- Resistência"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça e/ou Detectores de Calor" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Compartimentação" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="GERADORA DE ÁGUA QUENTE"/>
-    <field type="text" label="- Aquecedores de Passagem"/>
-    <field type="text" label="- Aquecedores de Passagem - Filtros"/>
-    <field type="text" label="- Pontuação PMP - Geradora de água Quente - Mensal" multiline="true"/>
-    <field type="text" label="- Detectores de Gás"/>
-    <field type="text" label="- Manômetros"/>
-    <field type="text" label="- Material dos Reservatórios"/>
-    <field type="text" label="- Placa de identificação"/>
-    <field type="text" label="- Placas Solares"/>
-    <field type="text" label="- Placas Solares - Manutenção"/>
-    <field type="text" label="- Portas de Inspeção"/>
-    <field type="text" label="- Purga / Drenagem"/>
-    <field type="text" label="- Geradora de Água Quente"/>
-    <field type="text" label="- Termômetros"/>
-    <field type="text" label="- Válvula de Segurança / Alivio"/>
-    <field type="text" label="- Bombas de Circulação"/>
-    <field type="text" label="- Bombas de Calor"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Acionamento">
+      <field type="boolean" label="Gerador ligou no Teste feito na vistoria e funcionou perfeitamente ?"/>
+    </section>
+    <section title="Bacia Contenção">
+      <field type="boolean" label="Há bacia de contenção sob o tanque de combustível?"/>
+      <field type="boolean" label="Há areia dentro da bacia de contenção de combustível?"/>
+    </section>
+    <section title="Tanque Combustível">
+      <field type="boolean" label="O tanque de combustível (reservatório) está com mais de 85 % da capacidade?"/>
+    </section>
+    <section title="Baterias">
+      <field type="text" label="As baterias estão conservadas e  tem menos que dois anos de uso? (fabricante aconselha trocar baterias com mais de dois anos)"/>
+    </section>
+    <section title="Aterramento">
+      <field type="boolean" label="O Gerador está devidamente aterrado ?"/>
+    </section>
+    <section title="Combustível - Armazenamento">
+      <field type="boolean" label="NÃO estão sendo guardados galões com combustível no local onde está gerador?"/>
+    </section>
+    <section title="Iluminação De Emergência">
+      <field type="boolean" label="Há luminária de Emergência a sala do Gerador?"/>
+    </section>
+    <section title="Luminárias Blindadas">
+      <field type="boolean" label="As luminárias são blindadas?"/>
+    </section>
+    <section title="Óleo">
+      <field type="boolean" label="O nível de óleo do Motor está normal?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Radiador">
+      <field type="boolean" label="O radiador está com água e liquido arrefecimento?"/>
+    </section>
+    <section title="Resistência">
+      <field type="boolean" label="A resistencia do Motor está funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça E/Ou Detectores De Calor">
+      <field type="boolean" label="Há detector de fumaça e/ou calor instalados no local?"/>
+      <field type="boolean" label="Os detectores de fumaça e/ou calor estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Compartimentação">
+      <field type="text" label="&quot;O gerador está instalado em local compartimentado (Portas Corta fogo , parede , etc.)&quot;"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Portas Corta Fogo">
+      <field type="boolean" label="As portas corta fogo estão conservadas?"/>
+      <field type="boolean" label="As portas estão fechando-se completamente?"/>
+      <field type="boolean" label="As portas estão identificadas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Geradora De Água Quente">
+    <section title="Aquecedores De Passagem">
+      <field type="boolean" label="Os aquecedores de passagem  estão conservados?"/>
+    </section>
+    <section title="Aquecedores De Passagem - Filtros">
+      <field type="text" label="Os filtros dos aquecedores de passagem estão limpos"/>
+    </section>
+    <section title="Pontuação Pmp - Geradora De Água Quente - Mensal">
+      <field type="text" label="Manutenção dos Aquecedores de Água"/>
+    </section>
+    <section title="Detectores De Gás">
+      <field type="boolean" label="Há detector de gás no local?"/>
+    </section>
+    <section title="Manômetros">
+      <field type="boolean" label="Há manômetros nos Reservatórios?"/>
+    </section>
+    <section title="Material Dos Reservatórios">
+      <field type="text" label="&quot;Qual tipo de material interno dos reservatórios? (Cobre , aço carbono , inox)&quot;"/>
+    </section>
+    <section title="Placa De Identificação">
+      <field type="boolean" label="Nos Reservatório de água quente há placas de identificação?"/>
+    </section>
+    <section title="Placas Solares">
+      <field type="text" label="O sistema é alimentado por placas solares"/>
+    </section>
+    <section title="Placas Solares - Manutenção">
+      <field type="text" label="As placas solares estão conservadas"/>
+    </section>
+    <section title="Portas De Inspeção">
+      <field type="boolean" label="Os Reservatórios?e água quente de água quente possuem porta de inspeção?"/>
+    </section>
+    <section title="Purga / Drenagem">
+      <field type="text" label="Hotel está fazendo as drenagens semanais"/>
+    </section>
+    <section title="Geradora De Água Quente">
+      <field type="text" label="Há problemas de oxidação nos Reservatórios"/>
+      <field type="boolean" label="Quantos Reservatórios de Água Quente?"/>
+    </section>
+    <section title="Termômetros">
+      <field type="boolean" label="Há termômetro nos Reservatórios?"/>
+    </section>
+    <section title="Válvula De Segurança / Alivio">
+      <field type="boolean" label="Nos reservatórios há Válvula de segurança?"/>
+    </section>
+    <section title="Bombas De Circulação">
+      <field type="boolean" label="As bombas estão funcionando?"/>
+    </section>
+    <section title="Bombas De Calor">
+      <field type="boolean" label="As bombas estão conservadas e funcionando ?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Lavanderia">
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Instalações Elétricas"/>
-    <field type="text" label="- Máquinas de Lavar Roupas"/>
-    <field type="text" label="- Máquinas de Secar Roupas"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Ventiladores"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está conservado?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Instalações Elétricas">
+      <field type="boolean" label="As instalações elétricas estão dentro das normas Brasileiras?"/>
+    </section>
+    <section title="Máquinas De Lavar Roupas">
+      <field type="boolean" label="Os equipamentos  estão conservados? e funcionando adequadamente?"/>
+    </section>
+    <section title="Máquinas De Secar Roupas">
+      <field type="boolean" label="Os equipamentos  estão conservados? e funcionando adequadamente?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Botoeiras De Incêndio">
+      <field type="boolean" label="Há botoeiras instaladas no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="Ventiladores">
+      <field type="boolean" label="Estão sendo pendurados objetos nos ventiladores?"/>
+      <field type="boolean" label="Os ventiladores estão com tela de proteção?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Piscina">
-    <field type="text" label="- Piscina -"/>
-    <field type="text" label="- Localização"/>
-    <field type="text" label="- Bombas"/>
-    <field type="text" label="- Câmeras na área da Piscina"/>
-    <field type="text" label="- Controle Cloro"/>
-    <field type="text" label="- Equipamentos de Segurança"/>
-    <field type="text" label="- Escada de Marinheiro"/>
-    <field type="text" label="- Grelhas nos Ralos"/>
-    <field type="text" label="- Iluminação Noturna"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Rejuntes"/>
-    <field type="text" label="- Sinalização de Profundidade"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="- Pontuação PMP - Piscina - Manutenção - Mensal" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="QUADROS ELÉTRICOS"/>
-    <field type="text" label="- Quadros Elétricos ( Geral )"/>
-    <field type="text" label="QUADRO SINÓTICO (ALERTAS)"/>
-    <field type="text" label="- Chiller"/>
-    <field type="text" label="- Funcionamento"/>
-    <field type="text" label="- Geradora de água Quente"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="RECEPÇÃO"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- CFTV - Recepção"/>
-    <field type="text" label="- CFTV - Maleiro"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Pintura (Geral)"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Sanitários PNE (NBR 9050 está disponível na INTRANET ACCOR)" multiline="true"/>
-    <field type="text" label="- Sanitários"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Piscina -">
+      <field type="boolean" label="Hotel tem Piscina?"/>
+    </section>
+    <section title="Localização">
+      <field type="text" label="Qual Localização"/>
+    </section>
+    <section title="Bombas">
+      <field type="boolean" label="A(s) Bomba(s) estão funcionando?"/>
+    </section>
+    <section title="Câmeras Na Área Da Piscina">
+      <field type="boolean" label="Há câmeras para compensar ausência de Salva-Vidas?"/>
+    </section>
+    <section title="Controle Cloro">
+      <field type="boolean" label="O hotel está preenchendo o controle diário de cloro e PH da Piscina?"/>
+    </section>
+    <section title="Equipamentos De Segurança">
+      <field type="boolean" label="Há bóias de segurança ligadas com corda?"/>
+      <field type="boolean" label="Há Botão de Pânico para desligar as Bombas de Sucção?"/>
+      <field type="boolean" label="Há gancho tipo pastor com acesso rápido para resgate com Piscina s com áreas acima de 50 m2?"/>
+      <field type="boolean" label="Há Ralos anti turbilhamento?"/>
+      <field type="boolean" label="Há válvula SSLV que interrompe o funcionamento da motobomba caso a sucção seja interrompida?"/>
+    </section>
+    <section title="Escada De Marinheiro">
+      <field type="boolean" label="A(s) Piscina (s) tem escada tipo Marinheiro?"/>
+    </section>
+    <section title="Grelhas Nos Ralos">
+      <field type="boolean" label="Há grelhas nos ralos que estão fixadas dentro da Piscina?"/>
+    </section>
+    <section title="Iluminação Noturna">
+      <field type="boolean" label="Há Iluminação noturna ao redor da Piscina (Quando em funcionamento Noturno)?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está conservado?"/>
+    </section>
+    <section title="Piso">
+      <field type="text" label="O piso (acesso) à Piscina está conservado"/>
+    </section>
+    <section title="Rejuntes">
+      <field type="boolean" label="Os rejuntes dentro da Piscina estão limpos?"/>
+    </section>
+    <section title="Sinalização De Profundidade">
+      <field type="text" label="Há sinalização de profundidade nas bordas da Piscina em Português (metros) e Inglês (Feets) a cada 5 metros? (atenção 1 metro = 3.2808399 feets)"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+    <section title="Pontuação Pmp - Piscina - Manutenção - Mensal">
+      <field type="text" label="Manutenção da Piscina"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Quadros Elétricos">
+    <section title="Quadros Elétricos ( Geral )">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+  </section>
+  <section title="Quadro Sinótico (Alertas)">
+    <section title="Chiller">
+      <field type="boolean" label="Há alarme sonoro no Back da recepção em caso de desarme do Chiller?"/>
+      <field type="boolean" label="Há lâmpada de alerta para o funcionamento do Chiller?"/>
+    </section>
+    <section title="Funcionamento">
+      <field type="boolean" label="O quadro está funcionando normalmente?"/>
+    </section>
+    <section title="Geradora De Água Quente">
+      <field type="boolean" label="Há alarme sonoro no Back recepção em caso da temperatura dos Boilers chegar a? 45º C?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Recepção">
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Cftv - Recepção">
+      <field type="boolean" label="Todas as áreas do lobby e Recepção são Monitorados por CFTV?"/>
+    </section>
+    <section title="Cftv - Maleiro">
+      <field type="text" label="O maleiro possui câmera de CFTV “Nova exigência”"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está que estado de Conservação?"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede estão que estado de Conservação?"/>
+    </section>
+    <section title="Pintura (Geral)">
+      <field type="text" label="Estado Conservação da Pintura"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete está conservado?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Botoeiras De Incêndio">
+      <field type="boolean" label="As botoeiras estão funcionando?"/>
+      <field type="boolean" label="Há botoeiras instaladas no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Caixa De Hidrantes">
+      <field type="text" label="O acesso à caixa de Hidrantes está livre desobstruído"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="text" label="As placas estão em Inglês em Português"/>
+      <field type="boolean" label="As placas instaladas são suficientes para direcionar as pessoas às áreas externa do local?"/>
+      <field type="boolean" label="Há placas de saída de Emergência ?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Sanitários Pne (Nbr 9050 Está Disponível Na Intranet Accor)">
+      <field type="boolean" label="Os sanitários estão totalmente adaptados ás Normas de Acessibilidade?"/>
+    </section>
+    <section title="Sanitários">
+      <field type="boolean" label="Os sanitários estão limpos e conservados?"/>
+      <field type="boolean" label="O sistema de Exaustão dos Sanitários está funcionando?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Lobby">
-    <field type="text" label="- Conservação"/>
-    <field type="text" label="RECEPÇÃO - BACK"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="REFEITÓRIO"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Filtros d'água"/>
-    <field type="text" label="- Janelas - Tela de Proteção"/>
-    <field type="text" label="- Luminárias Protegidas"/>
-    <field type="text" label="- Gás - Mangueiras"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Instalações Elétricas"/>
-    <field type="text" label="- Instalações Hidráulica"/>
-    <field type="text" label="- Instalações de Gás"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="RESERVATÓRIOS DE ÁGUA"/>
-    <field type="text" label="- Bombas de Recalque"/>
-    <field type="text" label="- Pontuação PMP - Bombas Geral - Trimestral" multiline="true"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Reservatórios de Água Inferior"/>
-    <field type="text" label="- Reservatórios de Água Superior"/>
-    <field type="text" label="- * Observações Complementares"/>
+    <section title="Conservação">
+      <field type="text" label="&quot;O Lobby , no geral , está limpo e conservado?&quot;"/>
+    </section>
+  </section>
+  <section title="Recepção - Back">
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está conservado?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Refeitório">
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Filtros D'Água">
+      <field type="boolean" label="Os filtros estão com etiqueta com data de troca e validade do elemento filtrante?"/>
+    </section>
+    <section title="Janelas - Tela De Proteção">
+      <field type="boolean" label="No local há telas de proteção contra insetos e sujeiras?"/>
+    </section>
+    <section title="Luminárias Protegidas">
+      <field type="boolean" label="As luminárias são protegidas com acrílico?"/>
+    </section>
+    <section title="Gás - Mangueiras">
+      <field type="boolean" label="As Mangueiras de gás estão dentro do vencimento?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está conservado?"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede  estão conservados?"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete está conservado?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="Os tetos  estão conservados?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Instalações Elétricas">
+      <field type="boolean" label="As instalações estão adequadas?"/>
+    </section>
+    <section title="Instalações Hidráulica">
+      <field type="boolean" label="As instalações estão adequadas?"/>
+    </section>
+    <section title="Instalações De Gás">
+      <field type="boolean" label="As instalações estão adequadas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Reservatórios De Água">
+    <section title="Bombas De Recalque">
+      <field type="boolean" label="As Bombas de Recalque estão conservadas e funcionando?"/>
+    </section>
+    <section title="Pontuação Pmp - Bombas Geral - Trimestral">
+      <field type="text" label="&quot;Bombas de Recalque, Recirculação e Pressurização&quot;"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Reservatórios De Água Inferior">
+      <field type="boolean" label="A impermeabilização está conservada?"/>
+      <field type="boolean" label="A tampa do reservatório está conservada?"/>
+      <field type="boolean" label="A tampa do reservatório é mantida trancada com cadeado?"/>
+    </section>
+    <section title="Reservatórios De Água Superior">
+      <field type="boolean" label="A tampa do reservatório está conservada?"/>
+      <field type="boolean" label="A impermeabilização está conservada?"/>
+      <field type="boolean" label="A tampa do reservatório é mantida trancada com cadeado?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Restaurante">
-    <field type="text" label="- Data Reforma ou abertura"/>
-    <field type="boolean" label="- Qual conceito (Nome) do restaurante?"/>
+    <section title="Data Reforma Ou Abertura">
+      <field type="text" label="Data Reforma ou abertura"/>
+    </section>
+    <section title="Qual Conceito (Nome) Do Restaurante?">
+      <field type="boolean" label="Qual conceito (Nome) do restaurante?"/>
+    </section>
+    <section title="Cftv">
+      <field type="boolean" label="Todas as áreas do restaurante são monitoradas por CFTV?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está que estado de Conservação?"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede estão que estado de Conservação?"/>
+    </section>
+    <section title="Pintura (Geral)">
+      <field type="text" label="Estado Conservação da Pintura"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete está conservado?"/>
+    </section>
+    <section title="Pista Fria">
+      <field type="boolean" label="O equipamento da Pista Fria está conservado? funcionando?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sanitários">
+      <field type="boolean" label="Os sanitários estão limpos e conservados?"/>
+      <field type="boolean" label="Os espelhos  estão conservados?"/>
+      <field type="boolean" label="O sistema de Exaustão dos Sanitários está funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Caixa De Hidrantes">
+      <field type="boolean" label="O acesso à caixa de hidrantes está livre e desobstruído?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
-  <section title="- Cftv">
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Pintura (Geral)"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Pista Fria"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sanitários"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="SALA GOVERNANÇA"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- * Observações Complementares"/>
+  <section title="Sala Governança">
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está conservado?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Botoeiras De Incêndio">
+      <field type="boolean" label="As botoeiras estão funcionando?"/>
+      <field type="boolean" label="Há botoeiras instaladas no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="A autonomia da luminárias de Emergência é superior a 60 minutos?"/>
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
   <section title="Sala Do Colaborador - Descanso">
-    <field type="text" label="- Sala Descanso"/>
+    <section title="Sala Descanso">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
   </section>
   <section title="Sala De Eventos">
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Mobiliário"/>
-    <field type="text" label="- Janelas - Limpeza"/>
-    <field type="text" label="- Cortinas (Geral)"/>
-    <field type="text" label="- Parede e/ou Papel de parede"/>
-    <field type="text" label="- Piso e/ou Carpete"/>
-    <field type="text" label="- Quadros Elétricos"/>
-    <field type="text" label="- Sanitários"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Mapas de Rota de Fuga" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio -Portas Antipânico" multiline="true"/>
-    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="SALA DE MANUTENÇÃO"/>
-    <field type="text" label="- Organização"/>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Mobiliário">
+      <field type="boolean" label="O mobiliário está conservado?"/>
+    </section>
+    <section title="Janelas - Limpeza">
+      <field type="boolean" label="As janelas estão limpas?"/>
+    </section>
+    <section title="Cortinas (Geral)">
+      <field type="boolean" label="As cortinas estão limpas e conservadas?"/>
+    </section>
+    <section title="Parede E/Ou Papel De Parede">
+      <field type="boolean" label="As paredes e/ou papéis de parede  estão conservados?"/>
+    </section>
+    <section title="Piso E/Ou Carpete">
+      <field type="boolean" label="O Piso e/ou Carpete está conservado?"/>
+    </section>
+    <section title="Quadros Elétricos">
+      <field type="boolean" label="Os quadros elétricos  estão conservados e identificados ?"/>
+    </section>
+    <section title="Sanitários">
+      <field type="boolean" label="O sistema de Exaustão dos Sanitários está funcionando?"/>
+      <field type="boolean" label="Os sanitários estão limpos e conservados?"/>
+      <field type="boolean" label="Os espelhos  estão conservados?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Botoeiras De Incêndio">
+      <field type="boolean" label="As botoeiras estão funcionando?"/>
+      <field type="boolean" label="Há botoeiras instaladas no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Detector De Fumaça">
+      <field type="boolean" label="Há detector de fumaça instalado no local?"/>
+      <field type="boolean" label="Os detectores de fumaça estão funcionando?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Extintores De Incêndio">
+      <field type="boolean" label="Há extintores de incêndio instalados no local?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Iluminação De Emergência">
+      <field type="boolean" label="As luminárias de Emergência estão funcionando?"/>
+      <field type="boolean" label="As luminárias de Emergência instaladas são suficientes para iluminar toda a Rota de Fugas às áreas externas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Mapas De Rota De Fuga">
+      <field type="boolean" label="Há Mapas de Rota de Fuga instaladas?"/>
+      <field type="boolean" label="Os Mapas de Rota de Fuga estão corretos?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Placas De Saídas De Emergência">
+      <field type="text" label="As placas estão em Inglês em Português"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio -Portas Antipânico">
+      <field type="boolean" label="Há portas antipânico nas salas de eventos com capacidade maior de 100 pessoas?"/>
+    </section>
+    <section title="Sistema De Combate À Incêndio - Portas Corta Fogo">
+      <field type="boolean" label="As portas corta fogo e/ou antipânico  no local abrem para lado externo da sala de eventos?"/>
+      <field type="boolean" label="As portas corta fogo  e/ou antipânico estão conservadas?"/>
+      <field type="boolean" label="As portas  e/ou antipânico estão fechando-se completamente?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Sala De Manutenção">
+    <section title="Organização">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
   </section>
   <section title="Sala Do Gerente">
-    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
-    <field type="text" label="- Organização"/>
-    <field type="text" label="SALÃO DE JOGOS"/>
-    <field type="text" label="- Equipamentos"/>
+    <section title="Ar Condicionado - Manutenção E Limpeza">
+      <field type="boolean" label="Os equipamentos de ar condicionado estão limpos e conservados?"/>
+    </section>
+    <section title="Organização">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+  </section>
+  <section title="Salão De Jogos">
+    <section title="Equipamentos">
+      <field type="boolean" label="Os equipamentos do local  estão conservados?"/>
+    </section>
   </section>
   <section title="Sauna">
-    <field type="text" label="- Avisos de Alerta"/>
-    <field type="text" label="- Iluminação"/>
-    <field type="text" label="- Sauna Seca"/>
-    <field type="text" label="- Sauna Vapor"/>
-    <field type="text" label="- Duchas"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="SISTEMA DE COMBATE À INCÊNDIO - SITUAÇÃO GERAL" multiline="true"/>
-    <field type="text" label="- Pontuação PMP - AVCB - Anual"/>
-    <field type="text" label="- Bombas de Incêndio"/>
-    <field type="text" label="- Botoeiras de incêndio"/>
-    <field type="text" label="- Caixas de Hidrantes"/>
-    <field type="text" label="- Central de Alarme de Incêndio"/>
-    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Central de Alarme (NBR 9441) - Mensal" multiline="true"/>
-    <field type="text" label="- CFTV - Saídas de Emergência"/>
-    <field type="text" label="- Compartimentação"/>
-    <field type="text" label="- Detectores de Fumaça e/ou Botoeiras"/>
-    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Detectores de Fumaça / Botoeiras - Mensal" multiline="true"/>
-    <field type="text" label="- Detectores de Gás"/>
-    <field type="text" label="- Extintores de Incêndio"/>
-    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Iluminação de Emergência NBR 10898)" multiline="true"/>
-    <field type="text" label="- Mangueiras de Incêndio - Teste de Vazão" multiline="true"/>
-    <field type="text" label="- Mangueiras de Incêndio"/>
-    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Mangueiras de Incêndio Inversão - Trimestral" multiline="true"/>
-    <field type="text" label="- Placas de Saídas de Emergência BR 11742?3434/5/7?077)" multiline="true"/>
-    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Placas Saídas de Emergência - Bimestral" multiline="true"/>
-    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Mapas Rota de Fuga - Bimestral" multiline="true"/>
-    <field type="text" label="- Plano de Emergência recepção"/>
-    <field type="text" label="- Portas Corta Fogo"/>
-    <field type="text" label="- Pressurização das escadas"/>
-    <field type="text" label="- Quadro Elétrico - Bombas de Incêndio"/>
-    <field type="text" label="- Botoeiras de incêndio"/>
-    <field type="text" label="- Recalque de Rua"/>
-    <field type="text" label="- Registros de Incêndio"/>
-    <field type="text" label="- Sprinklers"/>
-    <field type="text" label="- Tubulações de Incêndio"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="TUBULAÇÕES"/>
-    <field type="text" label="- Tubulação de Água Fria"/>
-    <field type="text" label="- Tubulação de água Gelada"/>
-    <field type="text" label="- Tubulação de água Quente"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="VESTIÁRIOS"/>
-    <field type="text" label="- Luminárias"/>
-    <field type="text" label="- Mobiliário / Armários"/>
-    <field type="text" label="- Parede"/>
-    <field type="text" label="- Piso"/>
-    <field type="text" label="- Portas"/>
-    <field type="text" label="- Teto"/>
-    <field type="text" label="- Limpeza"/>
-    <field type="text" label="- Mictórios"/>
-    <field type="text" label="- Vasos Sanitários"/>
-    <field type="text" label="- * Observações Complementares"/>
-    <field type="text" label="VENTILAÇÃO E/OU EXAUSTÃO"/>
-    <field type="text" label="- Ventilação e Exaustão"/>
-    <field type="text" label="- Pontuação PMP - Exaustão e Ventilação - Mensal" multiline="true"/>
-    <field type="text" label="LAUDO DA REDE ELÉTRICA"/>
-    <field type="text" label="CONTRATO E ORDENS DE SERVIÇOS MENSAIS DE MANUTENÇÃO PREVENTIVA DO GRUPO MOTO-GERADOR" multiline="true"/>
+    <section title="Avisos De Alerta">
+      <field type="boolean" label="Há avisos de Alerta no lado externo para utilização da Sauna?"/>
+    </section>
+    <section title="Iluminação">
+      <field type="boolean" label="A iluminação do local encontra-se conservada está funcionando?"/>
+    </section>
+    <section title="Sauna Seca">
+      <field type="boolean" label="O forno está conservado? protegido?"/>
+      <field type="boolean" label="A madeira da Sauna está conservada?"/>
+    </section>
+    <section title="Sauna Vapor">
+      <field type="boolean" label="O forno está conservado? protegido?"/>
+      <field type="boolean" label="O acabamento interno da Sauna (revestimentos)  estão conservados?"/>
+      <field type="boolean" label="Os rejuntes da Sauna a vapor estão escurecidos?"/>
+    </section>
+    <section title="Duchas">
+      <field type="boolean" label="As duchas estão limpas?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
-  <section title="Limpeza Anual Tanque De Diesel Do Gerador">
-    <field type="text" label="DECLARAÇÃO DE ABASTECIMENTO E NOTA FISCAL DE DIESEL PARA O GERADOR" multiline="true"/>
+  <section title="Sistema De Combate À Incêndio - Situação Geral">
+    <section title="Pontuação Pmp - Avcb - Anual">
+      <field type="boolean" label="AVCB está dentro da validade?"/>
+      <field type="text" label="Auto Vistoria Corpo de Bombeiros"/>
+    </section>
+    <section title="Bombas De Incêndio">
+      <field type="boolean" label="A Bomba Jockey está funcionando?"/>
+      <field type="boolean" label="A Bomba principal está funcionando?"/>
+    </section>
+    <section title="Botoeiras De Incêndio">
+      <field type="boolean" label="As botoeiras estão funcionando?"/>
+    </section>
+    <section title="Caixas De Hidrantes">
+      <field type="boolean" label="As caixas de hidrantes estão identificadas?"/>
+      <field type="boolean" label="As caixas podem ser abertas com facilidade?"/>
+      <field type="text" label="&quot;No interior das caixas de hidrantes estão disponíveis Mangueiras , bico , chave Storz?&quot;"/>
+      <field type="boolean" label="O Hotel possui REDE de Hidrante?"/>
+    </section>
+    <section title="Central De Alarme De Incêndio">
+      <field type="boolean" label="A central está operando normalmente?"/>
+      <field type="boolean" label="Nos Teste nos detectores / Botoeiras a recepção informou o responsável da Manutenção que a Central acionou?"/>
+      <field type="text" label="Há alarmes ativos pontos isolados? (Havendo pontos isolados colocar como Irregular) &gt;&gt;&gt;&gt;&gt;"/>
+      <field type="text" label="As baterias estão conservadas"/>
+      <field type="text" label="Estão sendo feitas as medições quinzenais das baterias"/>
+      <field type="boolean" label="A equipe sabe operar a central de alarme do sistema de incêndio?"/>
+      <field type="boolean" label="No Teste feito nos detectores de fumaça todos foram identificados pela Central?"/>
+    </section>
+    <section title="Pontuação Pmp - Sistema De Combate À Incêndio - Central De Alarme (Nbr 9441) - Mensal">
+      <field type="text" label="Medir tensão das baterias das centrais de alarme"/>
+    </section>
+    <section title="Cftv - Saídas De Emergência">
+      <field type="boolean" label="Todas as áreas das saídas de Emergência são monitorados por CFTV?"/>
+    </section>
+    <section title="Compartimentação">
+      <field type="boolean" label="Os pavimentos são compartimentados?"/>
+    </section>
+    <section title="Detectores De Fumaça E/Ou Botoeiras">
+      <field type="boolean" label="O Hotel possui Detectores Fumaça e/ou Botoeiras?"/>
+    </section>
+    <section title="Pontuação Pmp - Sistema De Combate À Incêndio - Detectores De Fumaça / Botoeiras - Mensal">
+      <field type="boolean" label="As botoeiras e/ou detectores de Fumaça estão funcionando?"/>
+    </section>
+    <section title="Detectores De Gás">
+      <field type="boolean" label="Os detectores de gás estão ligados na Central de Incêndio?"/>
+    </section>
+    <section title="Extintores De Incêndio">
+      <field type="boolean" label="As verificações mensais estão sendo realizadas conforme pede a NR-23?"/>
+      <field type="text" label="Há no mínimo dois extintores de incêndio nos corredores dos Apartamentos"/>
+      <field type="boolean" label="Os extintores de incêndio estão com carga e Teste Hidrostático dentro da validade?"/>
+    </section>
+    <section title="Pontuação Pmp - Sistema De Combate À Incêndio - Iluminação De Emergência Nbr 10898)">
+      <field type="text" label="Iluminação de Emergência No geral)"/>
+    </section>
+    <section title="Mangueiras De Incêndio - Teste De Vazão">
+      <field type="boolean" label="No Teste de vazão de água das Mangueiras o jato foi superior a 10 metros?"/>
+    </section>
+    <section title="Mangueiras De Incêndio">
+      <field type="boolean" label="As Mangueiras estão devidamente aduchadas?"/>
+      <field type="boolean" label="As Mangueiras estão com lacres selos de identificação com data e validade do Teste Hidrostático?"/>
+      <field type="boolean" label="As Mangueiras estão com Teste Hidrostático dentro da validade?"/>
+    </section>
+    <section title="Pontuação Pmp - Sistema De Combate À Incêndio - Mangueiras De Incêndio Inversão - Trimestral">
+      <field type="text" label="Inversão e Inspeção de Mangueiras e Hidrantes"/>
+    </section>
+    <section title="Placas De Saídas De Emergência Br 11742?3434/5/7?077)">
+      <field type="boolean" label="Todas as saídas de Emergência estão livres e desimpedidas?"/>
+    </section>
+    <section title="Pontuação Pmp - Sistema De Combate À Incêndio - Placas Saídas De Emergência - Bimestral">
+      <field type="text" label="Verificar Placas Saídas de Emergência Inglês/Português"/>
+    </section>
+    <section title="Pontuação Pmp - Sistema De Combate À Incêndio - Mapas Rota De Fuga - Bimestral">
+      <field type="text" label="Verificação das placas de Rota de Fuga"/>
+    </section>
+    <section title="Plano De Emergência Recepção">
+      <field type="text" label="&quot;Há plano de Emergência na recepção ,com a relação de todos os equipamentos de incêndio?&quot;"/>
+    </section>
+    <section title="Portas Corta Fogo">
+      <field type="boolean" label="As portas corta fogo estão conservadas?"/>
+      <field type="boolean" label="As portas corta fogo estão conservadas e fechando-se completamente?"/>
+      <field type="boolean" label="As portas corta fogo estão conservadas identificadas?"/>
+    </section>
+    <section title="Pressurização Das Escadas">
+      <field type="boolean" label="O sistema de pressurização das escadas está funcionando?"/>
+      <field type="text" label="O detector de fumaça no local quando testado não liga os motores da pressurização? (não pode ligar)"/>
+    </section>
+    <section title="Quadro Elétrico - Bombas De Incêndio">
+      <field type="boolean" label="O quadro das Bombas está conservado e identificado?"/>
+    </section>
+    <section title="Botoeiras De Incêndio">
+      <field type="text" label="&quot;A bomba principal , após ser acionada , é desligada somente no quadro próximo a Bomba de forma manual?&quot;"/>
+      <field type="boolean" label="O quadro está com botão na função automática?"/>
+    </section>
+    <section title="Recalque De Rua">
+      <field type="boolean" label="A tampa de proteção está conservada e pintada de vermelho?"/>
+      <field type="boolean" label="No recalque estão todos os acessórios conforme determina normas?"/>
+      <field type="boolean" label="O abrigo está limpo e com acesso desobstruído?"/>
+    </section>
+    <section title="Registros De Incêndio">
+      <field type="boolean" label="Os registros de incêndio estão cobertos e com lacres PVC?"/>
+    </section>
+    <section title="Sprinklers">
+      <field type="boolean" label="O Hotel possui REDE de Sprinklers?"/>
+    </section>
+    <section title="Tubulações De Incêndio">
+      <field type="boolean" label="As tubulações de incêndio estão conservadas ?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
   </section>
+  <section title="Tubulações">
+    <section title="Tubulação De Água Fria">
+      <field type="boolean" label="A tubulação está conservada?"/>
+      <field type="boolean" label="A tubulação está oxidada?"/>
+    </section>
+    <section title="Tubulação De Água Gelada">
+      <field type="boolean" label="O isolamento térmico da tubulação está conservado?"/>
+      <field type="boolean" label="A tubulação está conservada?"/>
+      <field type="boolean" label="A tubulação está oxidada?"/>
+    </section>
+    <section title="Tubulação De Água Quente">
+      <field type="boolean" label="O isolamento térmico da tubulação está conservado?"/>
+      <field type="boolean" label="A tubulação está conservada?"/>
+      <field type="boolean" label="A tubulação está oxidada?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Vestiários">
+    <section title="Luminárias">
+      <field type="boolean" label="As luminárias estão conservadas?"/>
+    </section>
+    <section title="Mobiliário / Armários">
+      <field type="boolean" label="O mobiliário / armários  estão conservados?"/>
+    </section>
+    <section title="Parede">
+      <field type="boolean" label="As paredes estão conservadas?"/>
+    </section>
+    <section title="Piso">
+      <field type="boolean" label="O piso está conservado?"/>
+    </section>
+    <section title="Portas">
+      <field type="boolean" label="As portas estão limpas e conservadas?"/>
+    </section>
+    <section title="Teto">
+      <field type="boolean" label="O teto está conservado?"/>
+    </section>
+    <section title="Limpeza">
+      <field type="boolean" label="O local está limpo e organizado?"/>
+    </section>
+    <section title="Mictórios">
+      <field type="boolean" label="Os mictórios estão limpos e conservados?"/>
+    </section>
+    <section title="Vasos Sanitários">
+      <field type="boolean" label="Os vasos Sanitários estão com as tampas de proteção?"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Informações complementares :"/>
+    </section>
+  </section>
+  <section title="Ventilação E/Ou Exaustão">
+    <section title="Ventilação E Exaustão">
+      <field type="boolean" label="Os equipamentos de Exaustão estão funcionando?"/>
+      <field type="boolean" label="Os equipamentos de Exaustão e Ventilação  estão limpos ?"/>
+      <field type="boolean" label="Os equipamentos de Ventilação estão funcionando?"/>
+      <field type="boolean" label="Os filtros dos equipamentos de ventilação está limpos?"/>
+    </section>
+    <section title="Pontuação Pmp - Exaustão E Ventilação - Mensal">
+      <field type="text" label="Troca dos Filtros do Sistema de Ventilação"/>
+    </section>
+  </section>
+  <section title="Laudo Da Rede Elétrica"/>
+  <section title="Contrato E Ordens De Serviços Mensais De Manutenção Preventiva Do Grupo Moto-Gerador"/>
+  <section title="Limpeza Anual Tanque De Diesel Do Gerador"/>
+  <section title="Declaração De Abastecimento E Nota Fiscal De Diesel Para O Gerador"/>
   <section title="Laudo De Abrangencia Do Grupo Moto-Gerador"/>
   <section title="Laudo Do Spda"/>
-  <section title="Laudo De Termografia">
-    <field type="text" label="LAUDO DA CABINE PRIMÁRIA E TRANSFORMADOR"/>
-    <field type="text" label="LAUDO DE ISOLAÇÃO ELÉTRICA DE LUVAS E TAPETES" multiline="true"/>
-    <field type="text" label="RELATÓRIO ANUAL DE MANUTENÇAO - PMOC"/>
-    <field type="text" label="ANÁLISE DA QUALIDADE DO AR"/>
-    <field type="text" label="ANÁLISE DA ÁGUA DO CHILLER - MENSAL"/>
-    <field type="text" label="ANÁLISE DA ÁGUA DAS TORRES DE CONDENSAÇÃO - MENSAL" multiline="true"/>
-    <field type="text" label="ANÁLISE MICROBIOLÓGICA DA ÁGUA DE CONSUMO HUMANO - trimestral" multiline="true"/>
-    <field type="text" label="ANÁLISE FÍSICO QUÍMICA DA ÁGUA DE CONSUMO HUMANO - semestral" multiline="true"/>
-    <field type="text" label="ANÁLISE FÍSICO QUÍMICA e BACTERILÓGICA DA ÁGUA DA PISCINA - MENSAL" multiline="true"/>
-    <field type="text" label="OUTORGA DO POÇO ARTESIANO"/>
-    <field type="text" label="ANÁLISE FÍSICO QUÍMICA DA ÁGUA DO POÇO - MENSAL" multiline="true"/>
-    <field type="text" label="PROTOCOLO DE ENTREGA DA ÁGUA DO POÇO EM ORGÃO DA ANVISA - MENSAL" multiline="true"/>
-    <field type="text" label="LAUDO DO SISTEMA DE ÁGUA QUENTE – NR 13"/>
-    <field type="text" label="CERTIFICADO DE LIMPEZA E HIGIENIZAÇÃO DOS RESERVATÓRIOS DE ÁGUA" multiline="true"/>
-    <field type="text" label="RELATÓRIO DE INSPEÇÃO ANUAL DOS ELEVADORES (RIA) e ART" multiline="true"/>
-    <field type="text" label="LICENÇA PARA USO DE RADIOS HT"/>
-    <field type="text" label="LAUDO DO SISTEMA DE PRESSURIZAÇÃO DE ESCADAS - anual" multiline="true"/>
-    <field type="text" label="LAUDO DO SISTEMA DE COMBATE À INCÊNDIO – TUBULAÇÕES , BOMBAS de HIDRANTES e SPRINKLERS - anual" multiline="true"/>
-  </section>
-  <section title="Certificado De Recarga Dos Extintores">
-    <field type="text" label="CERTIFICADO DE TESTE HIDROSTÁTICO DE MANGUEIRAS DE HIDRANTE" multiline="true"/>
-    <field type="text" label="LAUDO DO SISTEMA DE COMBATE A INCÊNDIO - SDAI" multiline="true"/>
-    <field type="text" label="AVCB – AUTO DE VISTORIA DO CORPO DE BOMBEIROS" multiline="true"/>
-    <field type="text" label="ALVARÁ DE FUNCIONAMENTO"/>
-  </section>
-  <section title="Certificado De Limpeza Da Caixa De Gordura">
-    <field type="text" label="CERTIFICADO DE LIMPEZA DO POÇO DE ÁGUAS DE ESGOTO" multiline="true"/>
-    <field type="text" label="CERTIFICADO DE LIMPEZA DO POÇO DE ÁGUAS PLUVIAIS" multiline="true"/>
-    <field type="text" label="LAUDO E TESTE DE ESTANQUEIDADE DA REDE DE GÁS" multiline="true"/>
-  </section>
-  <section title="Certificado De Limpeza Das Coifas E Exaustores">
-    <field type="text" label="PERITAGEM DA EDIFICAÇÃO - englobando elétrica. Hidráulica, civil, emergência, sistema de gás e climatização" multiline="true"/>
-    <field type="text" label="ECONOMIA DE ÁGUA"/>
-    <field type="text" label="- Economia de água"/>
-    <field type="text" label="- * Observações Complementares"/>
+  <section title="Laudo De Termografia"/>
+  <section title="Laudo Da Cabine Primária E Transformador"/>
+  <section title="Laudo De Isolação Elétrica De Luvas E Tapetes"/>
+  <section title="Relatório Anual De Manutençao - Pmoc"/>
+  <section title="Análise Da Qualidade Do Ar"/>
+  <section title="Análise Da Água Do Chiller - Mensal"/>
+  <section title="Análise Da Água Das Torres De Condensação - Mensal"/>
+  <section title="Análise Microbiológica Da Água De Consumo Humano - Trimestral"/>
+  <section title="Análise Físico Química Da Água De Consumo Humano - Semestral"/>
+  <section title="Análise Físico Química E Bacterilógica Da Água Da Piscina - Mensal"/>
+  <section title="Outorga Do Poço Artesiano"/>
+  <section title="Protocolo De Entrega Da Água Do Poço Em Orgão Da Anvisa - Mensal"/>
+  <section title="Laudo Do Sistema De Água Quente – Nr 13"/>
+  <section title="Certificado De Limpeza E Higienização Dos Reservatórios De Água"/>
+  <section title="Relatório De Inspeção Anual Dos Elevadores (Ria) E Art"/>
+  <section title="Licença Para Uso De Radios Ht"/>
+  <section title="Laudo Do Sistema De Pressurização De Escadas - Anual"/>
+  <section title="Laudo Do Sistema De Combate À Incêndio – Tubulações , Bombas De Hidrantes E Sprinklers - Anual"/>
+  <section title="Certificado De Recarga Dos Extintores"/>
+  <section title="Certificado De Teste Hidrostático De Mangueiras De Hidrante"/>
+  <section title="Laudo Do Sistema De Combate A Incêndio - Sdai"/>
+  <section title="Avcb – Auto De Vistoria Do Corpo De Bombeiros"/>
+  <section title="Alvará De Funcionamento"/>
+  <section title="Certificado De Limpeza Da Caixa De Gordura"/>
+  <section title="Certificado De Limpeza Do Poço De Águas De Esgoto"/>
+  <section title="Certificado De Limpeza Do Poço De Águas Pluviais"/>
+  <section title="Laudo E Teste De Estanqueidade Da Rede De Gás"/>
+  <section title="Certificado De Limpeza Das Coifas E Exaustores"/>
+  <section title="Peritagem Da Edificação - Englobando Elétrica. Hidráulica, Civil, Emergência, Sistema De Gás E Climatização"/>
+  <section title="Economia De Água">
+    <section title="Economia De Água">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="* Observações Complementares">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
   </section>
   <section title="Economia De Energia">
-    <field type="text" label="- Gerador de Energia - Horário de Ponta"/>
-    <field type="text" label="- Apartamentos - Lampadas Leds"/>
-    <field type="text" label="- Áreas Comuns - Lampadas Leds"/>
+    <section title="Gerador De Energia - Horário De Ponta">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Apartamentos - Lampadas Leds">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Áreas Comuns - Lampadas Leds">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
   </section>
   <section title="Sobre A Vistoria">
-    <field type="text" label="- Acompanhamento Gerente na vistoria"/>
-    <field type="boolean" label="- Acompanhamento responsável Manutenção na vistoria?"/>
-    <field type="boolean" label="- Quem acompanhou a vistoria?"/>
-    <field type="text" label="- Com quem foi feito reunião de encerramento (Gerente ausente justificar)" multiline="true"/>
-    <field type="text" label="- Atividades do PMP"/>
-    <field type="text" label="- &quot;Documentação (Laudo , Relatórios)&quot;"/>
-    <field type="text" label="- Cozinha (Geral)"/>
-    <field type="text" label="- Instalações Elétricas"/>
+    <section title="Acompanhamento Gerente Na Vistoria">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Acompanhamento Responsável Manutenção Na Vistoria?">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Quem Acompanhou A Vistoria?">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Com Quem Foi Feito Reunião De Encerramento (Gerente Ausente Justificar)">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Atividades Do Pmp">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Data de registro da ART"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="&quot;Documentação (Laudo , Relatórios)&quot;">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Cozinha (Geral)">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
+    <section title="Instalações Elétricas">
+      <field type="text" label="Empresa Contratada"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Data de emissão do documento"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+      <field type="text" label="Observações:"/>
+    </section>
   </section>
 </form>
