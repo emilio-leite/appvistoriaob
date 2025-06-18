@@ -1,0 +1,617 @@
+<?xml version="1.0" ?>
+<form>
+  <section title="Vistoria">
+    <field type="text" label="MANUTENÇÃO"/>
+    <field type="text" label="teste"/>
+    <field type="text" label="Gerente: Teste"/>
+    <field type="text" label="Gerente Operacional: Teste"/>
+    <field type="text" label="Responsável vistoria: Teste"/>
+    <field type="text" label="Data: 05/06/2025"/>
+  </section>
+  <section title="Apartamentos">
+    <field type="text" label="- Data Reforma ou abertura"/>
+    <field type="text" label="- Ar Condicionado"/>
+    <field type="text" label="- Bancada de Trabalho - Mesas"/>
+    <field type="text" label="- Banheiros - Apartamentos"/>
+    <field type="text" label="- Cadeiras"/>
+    <field type="text" label="- Check List"/>
+    <field type="text" label="- Cofres"/>
+    <field type="text" label="- Colchões"/>
+    <field type="text" label="- Pontuação PMP - Apartamentos - Colchões - Trimestral" multiline="true"/>
+    <field type="text" label="- Pontuação PMP - Apartamentos - Duchas - Trimestral" multiline="true"/>
+    <field type="text" label="- Frigobares"/>
+    <field type="text" label="- Fogões e /ou CookTops"/>
+    <field type="text" label="- Janelas"/>
+    <field type="text" label="- Luminárias e/ou Abajures"/>
+    <field type="text" label="- Mobiliário (Situação Geral)"/>
+    <field type="text" label="- Parede - Papel de parede ou Pintura (Geral)" multiline="true"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sacadas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Tomadas"/>
+    <field type="text" label="- TVs"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Portas são resistentes a Fogo" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Sprinklers" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Mapas de Rota de Fuga" multiline="true"/>
+    <field type="text" label="- Acessibilidade PNE - (NBR 9050 está disponível na INTRANET ACCOR)" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="- Pontuação PMP - Apartamentos - Check List - Semestral" multiline="true"/>
+  </section>
+  <section title="Ar Condicionado">
+    <field type="text" label="- Chiller e/ou Torres de Resfriamento"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintor Chiller" multiline="true"/>
+    <field type="text" label="- Fancoils"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="ÁREAS / PISOS TÉCNICOS"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Materiais"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="ÁREAS ADMINISTRATIVAS"/>
+    <field type="text" label="- CFTV - Áreas Administrativas"/>
+    <field type="text" label="- &quot;Mobiliário (Balcão , Cadeiras)&quot;"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Pintura (Geral)"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="ÁREAS EXTERNAS"/>
+    <field type="text" label="- CFTV - Áreas Externas"/>
+    <field type="text" label="- Calçada"/>
+    <field type="text" label="- Jardins"/>
+    <field type="text" label="- Pontuação PMP - Jardins - Manutenção - Mensal" multiline="true"/>
+    <field type="text" label="- Marquise"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="- Pontuação PMP - Iluminação Hotel - Mensal" multiline="true"/>
+    <field type="text" label="ÁREAS INTERNAS - CORREDORES TÉCNICOS"/>
+    <field type="text" label="- Corredores"/>
+    <field type="text" label="BOMBAS DE PRESSURIZAÇÃO"/>
+    <field type="text" label="- Conservação"/>
+    <field type="text" label="- Funcionando"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Business Center">
+    <field type="text" label="- Equipamentos"/>
+    <field type="text" label="- Instalações Elétricas"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="CABINE PRIMÁRIA / QGBT"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas de acesso"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- EPIs (Equipamentos de Proteção Individual)" multiline="true"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- NR 10 - Curso Equipe"/>
+    <field type="text" label="- NR 10 - Vencimento"/>
+    <field type="text" label="- Quadros Elétricos Diagramas Unifilares"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Tipo Transformador"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="CAMAREIRAS - BASE E/OU DEPÓSITOS"/>
+    <field type="text" label="- Base e/ou Depósitos"/>
+    <field type="text" label="- Janelas - Limpeza"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Armários"/>
+    <field type="text" label="- Portas - Pintura e Conservação"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="CENTRAL DE GÁS"/>
+    <field type="text" label="- Central de Gás"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="CENTRO DE MEDIÇÃO DE ENERGIA"/>
+    <field type="text" label="- Centro Medição"/>
+  </section>
+  <section title="Cftv">
+    <field type="text" label="- Funcionamento"/>
+    <field type="text" label="- Limpeza das Lentes câmeras"/>
+    <field type="text" label="- Monitoramento"/>
+    <field type="text" label="- Monitoramento - Empresa Terceirizada"/>
+    <field type="text" label="- Monitoramento - Recepção"/>
+    <field type="text" label="- Tempo de uso equipamentos"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Cobertura">
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- SPDA - Estruturas Metálicas"/>
+    <field type="text" label="- Guarda Corpo"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Corredores Dos Apartamentos">
+    <field type="text" label="- CFTV - Corredores dos Apartamentos"/>
+    <field type="text" label="- Janelas"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Shafts - Portas"/>
+    <field type="text" label="- Shafts - Sistema de Combate à Incêndio - Compartimentação" multiline="true"/>
+    <field type="text" label="- Shafts - Tubulações de água Fria"/>
+    <field type="text" label="- Shafts - Tubulações de água Gelada"/>
+    <field type="text" label="- Shafts - Tubulações de água Quente"/>
+    <field type="text" label="- Shafts - Tubulações no geral"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Mapas de Rota de Fuga" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Cozinha">
+    <field type="text" label="- Data Reforma ou abertura"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Pintura (Geral)"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Balcões de Congelados e/ou Resfriados"/>
+    <field type="text" label="- Câmaras Positivas e Negativas"/>
+    <field type="text" label="- Coifa"/>
+    <field type="text" label="- Equipamentos"/>
+    <field type="text" label="- Filtros d'água"/>
+    <field type="text" label="- Fritadeiras"/>
+    <field type="text" label="- Mangueiras de Gás"/>
+    <field type="text" label="- Instalações Elétricas"/>
+    <field type="text" label="- Janelas - Tela de Proteção"/>
+    <field type="text" label="- Lava Louça"/>
+    <field type="text" label="- Almoxarifado"/>
+    <field type="text" label="- Luminárias Protegidas"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de Gás" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Manta Anti-Chama" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Cobertor Anti-Chama" multiline="true"/>
+    <field type="text" label="- Wash Pull"/>
+    <field type="text" label="- Pontuação PMP - Cozinha - Caixa de Gordura (RDC216-04) - Bimestral" multiline="true"/>
+    <field type="text" label="- Pontuação PMP - Cozinha - Manutenção Equipamentos (RDC216-04) - Mensal" multiline="true"/>
+    <field type="text" label="- Pontuação PMP - Cozinha - Coifa - Dutos de Exaustão (RDC216-04) - Anual" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="CPD E/OU DG"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+  </section>
+  <section title="- Cftv - Cpd">
+    <field type="text" label="- Acesso às pessoas autorizadas"/>
+    <field type="text" label="- Instalações Elétricas"/>
+  </section>
+  <section title="- Pabx">
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="EDIFICAÇÃO"/>
+    <field type="text" label="- Fachada"/>
+    <field type="text" label="- Infiltrações"/>
+    <field type="text" label="- Comprometimento estrutural"/>
+    <field type="text" label="- Rachaduras"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Elevadores">
+    <field type="text" label="- Elevadores"/>
+    <field type="text" label="- Fabricante"/>
+    <field type="text" label="- Acessibilidade PNE - (NBR 9050 está disponível na INTRANET ACCOR)" multiline="true"/>
+    <field type="text" label="- Alarmes"/>
+    <field type="text" label="- Avisos de Alerta"/>
+    <field type="text" label="- Cabinas Conservação"/>
+    <field type="text" label="- Poço do Elevador"/>
+    <field type="text" label="- Casa de Máquinas Elevadores"/>
+    <field type="text" label="- CFTV - Elevadores"/>
+    <field type="text" label="- Iluminação de Emergência"/>
+    <field type="text" label="- Trilhos"/>
+    <field type="text" label="- Interfones"/>
+    <field type="text" label="- Pontuação PMP - Elevadores - Itens de Segurança - (NBR 13994 15997) - Mensal" multiline="true"/>
+    <field type="text" label="- Infiltrações"/>
+    <field type="text" label="- Quadros elétricos"/>
+    <field type="text" label="- Régua de Segurança"/>
+    <field type="text" label="- Sistema de Combate à Incêndio -Casa de Máquinas Elevadores" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detectores de Fumaça / Botoeiras (NBR 9441) - Mensal" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="ESCADAS DE EMERGÊNCIA"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - altura dos Degraus" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Corrimãos" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio Degraus Pintados" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Escadas Internas" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio Riscadas Externas" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio -Indicação dos Andares" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Setas de Direcionamento" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="ESTAÇÃO DE TRATAMENTO DE ÁGUA"/>
+    <field type="text" label="- Estação de Tratamento de Água"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Estacionamento">
+    <field type="text" label="- CFTV - Estacionamento"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Iluminação"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Sanitários"/>
+    <field type="text" label="- Escritório do Estacionamento"/>
+    <field type="text" label="- Infiltrações"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça e/ou Detectores de Calor" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Compartimentado" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Marcas Piso" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Tubulações de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
+    <field type="text" label="- Tubulações de gás"/>
+    <field type="text" label="- Vagas"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Fitness">
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Mobiliário / Armários"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Sanitários"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Equipamentos"/>
+    <field type="text" label="- Filtros d'água"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sanitários"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Gerador De Energia">
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Acionamento"/>
+    <field type="text" label="- Bacia Contenção"/>
+    <field type="text" label="- Tanque Combustível"/>
+    <field type="text" label="- Baterias"/>
+    <field type="text" label="- Aterramento"/>
+    <field type="text" label="- Combustível - Armazenamento"/>
+    <field type="text" label="- Iluminação de Emergência"/>
+    <field type="text" label="- Luminárias Blindadas"/>
+    <field type="text" label="- Óleo"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Radiador"/>
+    <field type="text" label="- Resistência"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça e/ou Detectores de Calor" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Compartimentação" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="GERADORA DE ÁGUA QUENTE"/>
+    <field type="text" label="- Aquecedores de Passagem"/>
+    <field type="text" label="- Aquecedores de Passagem - Filtros"/>
+    <field type="text" label="- Pontuação PMP - Geradora de água Quente - Mensal" multiline="true"/>
+    <field type="text" label="- Detectores de Gás"/>
+    <field type="text" label="- Manômetros"/>
+    <field type="text" label="- Material dos Reservatórios"/>
+    <field type="text" label="- Placa de identificação"/>
+    <field type="text" label="- Placas Solares"/>
+    <field type="text" label="- Placas Solares - Manutenção"/>
+    <field type="text" label="- Portas de Inspeção"/>
+    <field type="text" label="- Purga / Drenagem"/>
+    <field type="text" label="- Geradora de Água Quente"/>
+    <field type="text" label="- Termômetros"/>
+    <field type="text" label="- Válvula de Segurança / Alivio"/>
+    <field type="text" label="- Bombas de Circulação"/>
+    <field type="text" label="- Bombas de Calor"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Lavanderia">
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Instalações Elétricas"/>
+    <field type="text" label="- Máquinas de Lavar Roupas"/>
+    <field type="text" label="- Máquinas de Secar Roupas"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Ventiladores"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Piscina">
+    <field type="text" label="- Piscina -"/>
+    <field type="text" label="- Localização"/>
+    <field type="text" label="- Bombas"/>
+    <field type="text" label="- Câmeras na área da Piscina"/>
+    <field type="text" label="- Controle Cloro"/>
+    <field type="text" label="- Equipamentos de Segurança"/>
+    <field type="text" label="- Escada de Marinheiro"/>
+    <field type="text" label="- Grelhas nos Ralos"/>
+    <field type="text" label="- Iluminação Noturna"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Rejuntes"/>
+    <field type="text" label="- Sinalização de Profundidade"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="- Pontuação PMP - Piscina - Manutenção - Mensal" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="QUADROS ELÉTRICOS"/>
+    <field type="text" label="- Quadros Elétricos ( Geral )"/>
+    <field type="text" label="QUADRO SINÓTICO (ALERTAS)"/>
+    <field type="text" label="- Chiller"/>
+    <field type="text" label="- Funcionamento"/>
+    <field type="text" label="- Geradora de água Quente"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="RECEPÇÃO"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- CFTV - Recepção"/>
+    <field type="text" label="- CFTV - Maleiro"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Pintura (Geral)"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Sanitários PNE (NBR 9050 está disponível na INTRANET ACCOR)" multiline="true"/>
+    <field type="text" label="- Sanitários"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Lobby">
+    <field type="text" label="- Conservação"/>
+    <field type="text" label="RECEPÇÃO - BACK"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="REFEITÓRIO"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Filtros d'água"/>
+    <field type="text" label="- Janelas - Tela de Proteção"/>
+    <field type="text" label="- Luminárias Protegidas"/>
+    <field type="text" label="- Gás - Mangueiras"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Instalações Elétricas"/>
+    <field type="text" label="- Instalações Hidráulica"/>
+    <field type="text" label="- Instalações de Gás"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="RESERVATÓRIOS DE ÁGUA"/>
+    <field type="text" label="- Bombas de Recalque"/>
+    <field type="text" label="- Pontuação PMP - Bombas Geral - Trimestral" multiline="true"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Reservatórios de Água Inferior"/>
+    <field type="text" label="- Reservatórios de Água Superior"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Restaurante">
+    <field type="text" label="- Data Reforma ou abertura"/>
+    <field type="boolean" label="- Qual conceito (Nome) do restaurante?"/>
+  </section>
+  <section title="- Cftv">
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Pintura (Geral)"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Pista Fria"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sanitários"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Caixa de Hidrantes" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="SALA GOVERNANÇA"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Sala Do Colaborador - Descanso">
+    <field type="text" label="- Sala Descanso"/>
+  </section>
+  <section title="Sala De Eventos">
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Mobiliário"/>
+    <field type="text" label="- Janelas - Limpeza"/>
+    <field type="text" label="- Cortinas (Geral)"/>
+    <field type="text" label="- Parede e/ou Papel de parede"/>
+    <field type="text" label="- Piso e/ou Carpete"/>
+    <field type="text" label="- Quadros Elétricos"/>
+    <field type="text" label="- Sanitários"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Botoeiras de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Detector de fumaça" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Extintores de Incêndio" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Iluminação de emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Mapas de Rota de Fuga" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Placas de Saídas de Emergência" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio -Portas Antipânico" multiline="true"/>
+    <field type="text" label="- Sistema de Combate à Incêndio - Portas Corta Fogo" multiline="true"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="SALA DE MANUTENÇÃO"/>
+    <field type="text" label="- Organização"/>
+  </section>
+  <section title="Sala Do Gerente">
+    <field type="text" label="- Ar Condicionado - Manutenção e Limpeza"/>
+    <field type="text" label="- Organização"/>
+    <field type="text" label="SALÃO DE JOGOS"/>
+    <field type="text" label="- Equipamentos"/>
+  </section>
+  <section title="Sauna">
+    <field type="text" label="- Avisos de Alerta"/>
+    <field type="text" label="- Iluminação"/>
+    <field type="text" label="- Sauna Seca"/>
+    <field type="text" label="- Sauna Vapor"/>
+    <field type="text" label="- Duchas"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="SISTEMA DE COMBATE À INCÊNDIO - SITUAÇÃO GERAL" multiline="true"/>
+    <field type="text" label="- Pontuação PMP - AVCB - Anual"/>
+    <field type="text" label="- Bombas de Incêndio"/>
+    <field type="text" label="- Botoeiras de incêndio"/>
+    <field type="text" label="- Caixas de Hidrantes"/>
+    <field type="text" label="- Central de Alarme de Incêndio"/>
+    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Central de Alarme (NBR 9441) - Mensal" multiline="true"/>
+    <field type="text" label="- CFTV - Saídas de Emergência"/>
+    <field type="text" label="- Compartimentação"/>
+    <field type="text" label="- Detectores de Fumaça e/ou Botoeiras"/>
+    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Detectores de Fumaça / Botoeiras - Mensal" multiline="true"/>
+    <field type="text" label="- Detectores de Gás"/>
+    <field type="text" label="- Extintores de Incêndio"/>
+    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Iluminação de Emergência NBR 10898)" multiline="true"/>
+    <field type="text" label="- Mangueiras de Incêndio - Teste de Vazão" multiline="true"/>
+    <field type="text" label="- Mangueiras de Incêndio"/>
+    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Mangueiras de Incêndio Inversão - Trimestral" multiline="true"/>
+    <field type="text" label="- Placas de Saídas de Emergência BR 11742?3434/5/7?077)" multiline="true"/>
+    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Placas Saídas de Emergência - Bimestral" multiline="true"/>
+    <field type="text" label="- Pontuação PMP - Sistema de Combate à Incêndio - Mapas Rota de Fuga - Bimestral" multiline="true"/>
+    <field type="text" label="- Plano de Emergência recepção"/>
+    <field type="text" label="- Portas Corta Fogo"/>
+    <field type="text" label="- Pressurização das escadas"/>
+    <field type="text" label="- Quadro Elétrico - Bombas de Incêndio"/>
+    <field type="text" label="- Botoeiras de incêndio"/>
+    <field type="text" label="- Recalque de Rua"/>
+    <field type="text" label="- Registros de Incêndio"/>
+    <field type="text" label="- Sprinklers"/>
+    <field type="text" label="- Tubulações de Incêndio"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="TUBULAÇÕES"/>
+    <field type="text" label="- Tubulação de Água Fria"/>
+    <field type="text" label="- Tubulação de água Gelada"/>
+    <field type="text" label="- Tubulação de água Quente"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="VESTIÁRIOS"/>
+    <field type="text" label="- Luminárias"/>
+    <field type="text" label="- Mobiliário / Armários"/>
+    <field type="text" label="- Parede"/>
+    <field type="text" label="- Piso"/>
+    <field type="text" label="- Portas"/>
+    <field type="text" label="- Teto"/>
+    <field type="text" label="- Limpeza"/>
+    <field type="text" label="- Mictórios"/>
+    <field type="text" label="- Vasos Sanitários"/>
+    <field type="text" label="- * Observações Complementares"/>
+    <field type="text" label="VENTILAÇÃO E/OU EXAUSTÃO"/>
+    <field type="text" label="- Ventilação e Exaustão"/>
+    <field type="text" label="- Pontuação PMP - Exaustão e Ventilação - Mensal" multiline="true"/>
+    <field type="text" label="LAUDO DA REDE ELÉTRICA"/>
+    <field type="text" label="CONTRATO E ORDENS DE SERVIÇOS MENSAIS DE MANUTENÇÃO PREVENTIVA DO GRUPO MOTO-GERADOR" multiline="true"/>
+  </section>
+  <section title="Limpeza Anual Tanque De Diesel Do Gerador">
+    <field type="text" label="DECLARAÇÃO DE ABASTECIMENTO E NOTA FISCAL DE DIESEL PARA O GERADOR" multiline="true"/>
+  </section>
+  <section title="Laudo De Abrangencia Do Grupo Moto-Gerador"/>
+  <section title="Laudo Do Spda"/>
+  <section title="Laudo De Termografia">
+    <field type="text" label="LAUDO DA CABINE PRIMÁRIA E TRANSFORMADOR"/>
+    <field type="text" label="LAUDO DE ISOLAÇÃO ELÉTRICA DE LUVAS E TAPETES" multiline="true"/>
+    <field type="text" label="RELATÓRIO ANUAL DE MANUTENÇAO - PMOC"/>
+    <field type="text" label="ANÁLISE DA QUALIDADE DO AR"/>
+    <field type="text" label="ANÁLISE DA ÁGUA DO CHILLER - MENSAL"/>
+    <field type="text" label="ANÁLISE DA ÁGUA DAS TORRES DE CONDENSAÇÃO - MENSAL" multiline="true"/>
+    <field type="text" label="ANÁLISE MICROBIOLÓGICA DA ÁGUA DE CONSUMO HUMANO - trimestral" multiline="true"/>
+    <field type="text" label="ANÁLISE FÍSICO QUÍMICA DA ÁGUA DE CONSUMO HUMANO - semestral" multiline="true"/>
+    <field type="text" label="ANÁLISE FÍSICO QUÍMICA e BACTERILÓGICA DA ÁGUA DA PISCINA - MENSAL" multiline="true"/>
+    <field type="text" label="OUTORGA DO POÇO ARTESIANO"/>
+    <field type="text" label="ANÁLISE FÍSICO QUÍMICA DA ÁGUA DO POÇO - MENSAL" multiline="true"/>
+    <field type="text" label="PROTOCOLO DE ENTREGA DA ÁGUA DO POÇO EM ORGÃO DA ANVISA - MENSAL" multiline="true"/>
+    <field type="text" label="LAUDO DO SISTEMA DE ÁGUA QUENTE – NR 13"/>
+    <field type="text" label="CERTIFICADO DE LIMPEZA E HIGIENIZAÇÃO DOS RESERVATÓRIOS DE ÁGUA" multiline="true"/>
+    <field type="text" label="RELATÓRIO DE INSPEÇÃO ANUAL DOS ELEVADORES (RIA) e ART" multiline="true"/>
+    <field type="text" label="LICENÇA PARA USO DE RADIOS HT"/>
+    <field type="text" label="LAUDO DO SISTEMA DE PRESSURIZAÇÃO DE ESCADAS - anual" multiline="true"/>
+    <field type="text" label="LAUDO DO SISTEMA DE COMBATE À INCÊNDIO – TUBULAÇÕES , BOMBAS de HIDRANTES e SPRINKLERS - anual" multiline="true"/>
+  </section>
+  <section title="Certificado De Recarga Dos Extintores">
+    <field type="text" label="CERTIFICADO DE TESTE HIDROSTÁTICO DE MANGUEIRAS DE HIDRANTE" multiline="true"/>
+    <field type="text" label="LAUDO DO SISTEMA DE COMBATE A INCÊNDIO - SDAI" multiline="true"/>
+    <field type="text" label="AVCB – AUTO DE VISTORIA DO CORPO DE BOMBEIROS" multiline="true"/>
+    <field type="text" label="ALVARÁ DE FUNCIONAMENTO"/>
+  </section>
+  <section title="Certificado De Limpeza Da Caixa De Gordura">
+    <field type="text" label="CERTIFICADO DE LIMPEZA DO POÇO DE ÁGUAS DE ESGOTO" multiline="true"/>
+    <field type="text" label="CERTIFICADO DE LIMPEZA DO POÇO DE ÁGUAS PLUVIAIS" multiline="true"/>
+    <field type="text" label="LAUDO E TESTE DE ESTANQUEIDADE DA REDE DE GÁS" multiline="true"/>
+  </section>
+  <section title="Certificado De Limpeza Das Coifas E Exaustores">
+    <field type="text" label="PERITAGEM DA EDIFICAÇÃO - englobando elétrica. Hidráulica, civil, emergência, sistema de gás e climatização" multiline="true"/>
+    <field type="text" label="ECONOMIA DE ÁGUA"/>
+    <field type="text" label="- Economia de água"/>
+    <field type="text" label="- * Observações Complementares"/>
+  </section>
+  <section title="Economia De Energia">
+    <field type="text" label="- Gerador de Energia - Horário de Ponta"/>
+    <field type="text" label="- Apartamentos - Lampadas Leds"/>
+    <field type="text" label="- Áreas Comuns - Lampadas Leds"/>
+  </section>
+  <section title="Sobre A Vistoria">
+    <field type="text" label="- Acompanhamento Gerente na vistoria"/>
+    <field type="boolean" label="- Acompanhamento responsável Manutenção na vistoria?"/>
+    <field type="boolean" label="- Quem acompanhou a vistoria?"/>
+    <field type="text" label="- Com quem foi feito reunião de encerramento (Gerente ausente justificar)" multiline="true"/>
+    <field type="text" label="- Atividades do PMP"/>
+    <field type="text" label="- &quot;Documentação (Laudo , Relatórios)&quot;"/>
+    <field type="text" label="- Cozinha (Geral)"/>
+    <field type="text" label="- Instalações Elétricas"/>
+  </section>
+</form>
